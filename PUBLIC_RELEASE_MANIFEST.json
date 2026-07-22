@@ -2,7 +2,8 @@
   "schema_version": 1,
   "release_version": "1.0.0",
   "repository_visibility": "public",
-  "zenodo_published": false,
+  "zenodo_published": true,
+  "zenodo_publication_date": "2026-07-22",
   "file_count_excluding_manifest_and_checksum": 179,
   "original_private_git_history_included": false,
   "processed_panel_included": false,
@@ -67,8 +68,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 33371,
-      "sha256": "3dea39251dd2e7f274af6ed33003b1db6eb3bbd32bab308a593cea1483664384",
+      "bytes": 33837,
+      "sha256": "6d9e613bd49663ece8a1c28debf1b142290c5756fad41e3c65f146b4a6c99d6c",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -83,8 +84,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 1135,
-      "sha256": "7d6f038ac62c7f221398c87c5a8a49ffb0bfeb6eb03d6023083bb11bdccece52",
+      "bytes": 1164,
+      "sha256": "a93306f46491991506c8e6510c27bb75a79791702ccde5107afb1b0bcab5c6cc",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -195,8 +196,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 4201,
-      "sha256": "1547fbd18b976065864b091bb28627c64f34c6c293b556de847029ae10daf7b1",
+      "bytes": 4179,
+      "sha256": "3fcd31e09243e5348b1f8bbbbf7be090fabf71eb45af612cdc345a0be9f12432",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -211,8 +212,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 286,
-      "sha256": "63276115e7279370c98c8a7a157ff79922e96775202dd48e66490f42a01f9e7f",
+      "bytes": 328,
+      "sha256": "d26908b7e3ee0f3483cfb5baa4d28b6ea5b554264a2698b42c1fd413c94525e1",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -227,8 +228,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 5091,
-      "sha256": "2805648e56b9140c6ee28420f482e444068bd9ea345b1a769808de93e56fadd8",
+      "bytes": 5144,
+      "sha256": "51e5c87e9594bf9fb4274cc00024c29a873f3c3e5c4a9acfd2eab485ce979056",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -243,8 +244,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 610,
-      "sha256": "936c856297bfb7fbbdb96bc11bd48a3a99dcc2e22e9bb6b502511cdbf4d3b307",
+      "bytes": 650,
+      "sha256": "dda926cab9a75d5fe46c7c68fa14120516db64fd84360798ceee5a946792bec4",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -297,7 +298,7 @@
       "privacy_scan_status": "passed"
     },
     {
-      "path": "ZENODO_METADATA_DRAFT.md",
+      "path": "ZENODO_METADATA.md",
       "role": "release_documentation",
       "derivation": {
         "kind": "generated",
@@ -307,8 +308,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 2581,
-      "sha256": "b9814f21d5ae5ba281c64e24925bc8003e0edc45e78f82e9faadce7ce41959cf",
+      "bytes": 2499,
+      "sha256": "e7a90506b5b166c90df76f00f512a479f5c62e42895a8f3cdf242030f81fa4f3",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -2571,8 +2572,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 2219,
-      "sha256": "bf4a7af6481dff0082bda57150eeb114678fe5916dd56b62aaaf341d033a08cf",
+      "bytes": 2512,
+      "sha256": "ec8e360e77e262fabc6310f62f416f2c59bf3c46fa3e551c553083c169504de9",
       "license_scope": "MIT-software",
       "privacy_scan_status": "passed"
     }

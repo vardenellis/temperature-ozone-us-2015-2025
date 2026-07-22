@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-07-22 — Zenodo manuscript publication
+
+- Published the existing nine-file Zenodo manuscript record at
+  [`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897) after
+  final author approval and checksum verification.
+- Updated the public repository's status and citation guidance in a normal
+  fast-forward commit without changing the manuscript, supplement, scientific
+  artifacts, AI-assistance disclosure, tags, releases, or integrations.
+
 ## 2026-07-21 — Public repository release v1.0.0
 
 - Replaced the reader-facing draft DOI label with `DOI`, changed Code

@@ -1,18 +1,18 @@
+# Zenodo manuscript metadata — published record
 
-# Zenodo manuscript metadata — unpublished draft
-
-The manuscript DOI is `10.5281/zenodo.21434897`. The Zenodo manuscript record
-remains unpublished, so Zenodo has not registered the DOI. The public software
-repository is
-`https://github.com/vardenellis/temperature-ozone-us-2015-2025`. No Zenodo
-publication date or public correspondence address has been assigned. Zenodo is
-a research repository, not a journal.
+The non-peer-reviewed manuscript was published on Zenodo on 2026-07-22 at
+[`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897). The
+public software repository is
+`https://github.com/vardenellis/temperature-ozone-us-2015-2025`. No public
+correspondence address is supplied. Zenodo is a research repository, not a
+journal.
 
 ## Manuscript record
 
-- Deposit status: unpublished draft
-- Upload type: `publication/preprint` (already configured in the unpublished
-  draft)
+- Deposit status: published
+- Publication date: 2026-07-22
+- Public record: `https://zenodo.org/records/21434897`
+- Upload type: `publication/preprint`
 - Title: *Temperature Distributions and Temperature-Standardized Ozone Change
   Across U.S. Monitoring Sites, 2015–2025*
 - Creator: Ellis Varden
@@ -30,7 +30,7 @@ a research repository, not a journal.
 - Files: exact nine-file final publication package
 - DOI: `10.5281/zenodo.21434897`
 - Related software: `https://github.com/vardenellis/temperature-ozone-us-2015-2025`
-- Related software identifier: add only after a real software record exists
+- Related software identifier: public GitHub repository URL; no software DOI
 
 ## Future software record
 
@@ -42,7 +42,6 @@ a research repository, not a journal.
 - Creator: Ellis Varden
 - Affiliation: Independent Researcher
 - Version: 1.0.0
-- Intended GitHub repository name: `temperature-ozone-us-2015-2025`
 - GitHub repository URL: `https://github.com/vardenellis/temperature-ozone-us-2015-2025`
 - Software license: MIT
 - Description: Curated reproducibility snapshot for the associated
@@ -50,6 +49,6 @@ a research repository, not a journal.
   analytical panel are excluded. Reproduction scope and input reconstruction
   requirements are documented in the package.
 - DOI: pending
-- Related publication DOI: `10.5281/zenodo.21434897` (Zenodo manuscript record unpublished)
-- Automated GitHub archival: optional later and only for the approved public
-  repository, never the private development repository
+- Related publication DOI: `10.5281/zenodo.21434897` (published manuscript record)
+- Automated GitHub archival: optional later and only for this public repository,
+  never the private development repository

@@ -2,8 +2,9 @@
 # Release status
 
 - Public repository: version 1.0.0, released 2026-07-21.
-- Manuscript: non-peer-reviewed preprint; DOI `10.5281/zenodo.21434897`.
-- Zenodo manuscript record: unpublished pending a separate author decision.
+- Manuscript: non-peer-reviewed preprint, published on Zenodo 2026-07-22.
+- Zenodo manuscript record: published; DOI
+  [`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897).
 - GitHub tag or release: none.
 - Zenodo software record: none.
 - GitHub–Zenodo integration: not enabled.

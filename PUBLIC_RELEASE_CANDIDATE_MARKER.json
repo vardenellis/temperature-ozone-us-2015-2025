@@ -5,5 +5,6 @@
   "history_preserved": false,
   "repository_visibility": "public",
   "repository_release_date": "2026-07-21",
-  "zenodo_published": false
+  "zenodo_published": true,
+  "zenodo_publication_date": "2026-07-22"
 }

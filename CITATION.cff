@@ -19,6 +19,7 @@ preferred-citation:
       given-names: Ellis
       affiliation: "Independent Researcher"
   version: 1.0
+  date-published: 2026-07-22
   doi: 10.5281/zenodo.21434897
 abstract: >-
   Curated reproducibility snapshot for an associational study of temperature

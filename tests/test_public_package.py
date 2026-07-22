@@ -57,3 +57,7 @@ def test_public_identity_and_release_state() -> None:
     assert ("Reserved" + " DOI") not in combined
     assert ("will be made " + "publicly available upon release") not in combined
     assert "are publicly available at" in combined
+    assert "Zenodo manuscript record: published" in (ROOT / "RELEASE_STATUS.md").read_text()
+    assert "https://doi.org/10.5281/zenodo.21434897" in (ROOT / "README.md").read_text()
+    assert not (ROOT / "ZENODO_METADATA_DRAFT.md").exists()
+    assert (ROOT / "ZENODO_METADATA.md").is_file()

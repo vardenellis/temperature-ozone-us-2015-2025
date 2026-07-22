@@ -7,9 +7,9 @@
 
 This public repository is version 1.0.0 of the curated reproducibility
 materials. The manuscript is a non-peer-reviewed preprint with DOI
-`10.5281/zenodo.21434897`. Its Zenodo manuscript record remains unpublished;
-Zenodo will not register the DOI until that record is published. No public
-correspondence address is supplied.
+[`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897), published
+on Zenodo on 2026-07-22. No public correspondence address is supplied. The
+software has no separate software DOI.
 
 ## Study scope
 
@@ -96,7 +96,8 @@ not performed and the excluded inputs must first be reconstructed.
 ## Citation
 
 Software metadata are in [CITATION.cff](CITATION.cff). The manuscript DOI is
-`10.5281/zenodo.21434897`; its Zenodo record remains unpublished.
+[`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897); the
+Zenodo manuscript record is published.
 All seven traced citation placeholders were resolved from
 the author-specified verified sources; the standing safeguard against future
 unsupported literature claims remains active.
