@@ -18,9 +18,9 @@ preferred-citation:
     - family-names: Varden
       given-names: Ellis
       affiliation: "Independent Researcher"
-  version: 1.0
+  version: 1.0.1
   date-published: 2026-07-22
-  doi: 10.5281/zenodo.21434897
+  doi: 10.5281/zenodo.21484069
 abstract: >-
   Curated reproducibility snapshot for an associational study of temperature
   distributions and temperature-standardized ozone change across represented

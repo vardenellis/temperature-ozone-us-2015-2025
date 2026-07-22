@@ -7,9 +7,11 @@
 
 This public repository is version 1.0.0 of the curated reproducibility
 materials. The manuscript is a non-peer-reviewed preprint with DOI
-[`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897), published
-on Zenodo on 2026-07-22. No public correspondence address is supplied. The
-software has no separate software DOI.
+[`10.5281/zenodo.21484069`](https://doi.org/10.5281/zenodo.21484069), published
+on Zenodo on 2026-07-22 as version 1.0.1. Version 1.0.1 is an administrative
+correction to three auxiliary package files; the manuscript, supplement,
+tables, and figures are unchanged from version 1.0. No public correspondence
+address is supplied. The software has no separate software DOI.
 
 ## Study scope
 
@@ -96,8 +98,10 @@ not performed and the excluded inputs must first be reconstructed.
 ## Citation
 
 Software metadata are in [CITATION.cff](CITATION.cff). The manuscript DOI is
-[`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897); the
-Zenodo manuscript record is published.
+[`10.5281/zenodo.21484069`](https://doi.org/10.5281/zenodo.21484069); the
+Zenodo manuscript record is published as version 1.0.1. The unchanged
+scientific PDFs display the predecessor version DOI,
+[`10.5281/zenodo.21434897`](https://doi.org/10.5281/zenodo.21434897).
 All seven traced citation placeholders were resolved from
 the author-specified verified sources; the standing safeguard against future
 unsupported literature claims remains active.
@@ -120,6 +124,6 @@ See [release status](RELEASE_STATUS.md) and the [changelog](CHANGELOG.md).
 
 ## Contact
 
-No public correspondence email or postal address is supplied for version 1.0.
+No public correspondence email or postal address is supplied for version 1.0.1.
 Questions about the reproducibility materials may be raised through this
 repository's issue tracker.

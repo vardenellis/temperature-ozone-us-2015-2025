@@ -4,6 +4,11 @@
   "repository_visibility": "public",
   "zenodo_published": true,
   "zenodo_publication_date": "2026-07-22",
+  "zenodo_version": "1.0.1",
+  "zenodo_version_doi": "10.5281/zenodo.21484069",
+  "zenodo_concept_doi": "10.5281/zenodo.21434896",
+  "zenodo_predecessor_version_doi": "10.5281/zenodo.21434897",
+  "zenodo_scientific_content_changed": false,
   "file_count_excluding_manifest_and_checksum": 179,
   "original_private_git_history_included": false,
   "processed_panel_included": false,
@@ -68,8 +73,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 34484,
-      "sha256": "e553b222ddeea0651330e83626d98dbae2cbc6ac6d6226b76cad9c683ed7c1b2",
+      "bytes": 35163,
+      "sha256": "e1e3e55a5073f50adf5a10fcfa84dcefd8102edb46f2db9d6593bbf3addd5233",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -84,8 +89,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 1164,
-      "sha256": "a93306f46491991506c8e6510c27bb75a79791702ccde5107afb1b0bcab5c6cc",
+      "bytes": 1166,
+      "sha256": "578dcde5fabdd7b6cc009dd550d0dc73767db4e8ff53b9921eda8aca9ae4af06",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -228,8 +233,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 5144,
-      "sha256": "51e5c87e9594bf9fb4274cc00024c29a873f3c3e5c4a9acfd2eab485ce979056",
+      "bytes": 5477,
+      "sha256": "4d73869cd81c3b10f7f12a5497811608da620b6538843d341b1eb9fd964e7869",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -244,8 +249,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 780,
-      "sha256": "e57ae86e7e6ec5b803e71939da186747267913060c049bb08f3f590cc40c2875",
+      "bytes": 1274,
+      "sha256": "dbc03b8ebb8dd9c658cb0c3a9aa495900566b0ac5523bf272256a7253ffd8e10",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -308,8 +313,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 2499,
-      "sha256": "e7a90506b5b166c90df76f00f512a479f5c62e42895a8f3cdf242030f81fa4f3",
+      "bytes": 2863,
+      "sha256": "5e9a35df804cbc3a6d55dd9c3be22fa5419d41e6be0fc1e45473dee9ad39a92d",
       "license_scope": "metadata-no-license-assertion",
       "privacy_scan_status": "passed"
     },
@@ -2572,8 +2577,8 @@
           "generated for public release"
         ]
       },
-      "bytes": 3141,
-      "sha256": "1a4493009540c8918b440692140d9fc3ba8ebc3892d0c141403fa6d111c3425f",
+      "bytes": 4199,
+      "sha256": "a8ceedd4797d1a5f34579e89ac599ba5b7ded9e380c6c94e23f6a4609e3a2c9f",
       "license_scope": "MIT-software",
       "privacy_scan_status": "passed"
     }

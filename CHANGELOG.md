@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-22 — Zenodo administrative correction
+
+- Published manuscript version 1.0.1 at
+  [`10.5281/zenodo.21484069`](https://doi.org/10.5281/zenodo.21484069) under
+  concept DOI [`10.5281/zenodo.21434896`](https://doi.org/10.5281/zenodo.21434896).
+- Corrected obsolete prepublication lifecycle wording in `CITATION.cff`,
+  `README_ZENODO.md`, and `ZENODO_FILE_INVENTORY.json`. The manuscript,
+  supplement, tables, and figures are byte-for-byte identical to version 1.0.
+- Updated repository citation and release records without changing scientific
+  artifacts or creating a GitHub tag, release, software DOI, or Zenodo
+  integration.
+
 ## 2026-07-22 — GitHub release-state reconciliation
 
 - Recorded the existing annotated `v1.0.0` tag and the corresponding GitHub
@@ -255,8 +267,9 @@
   bootstrap, sensitivity, reporting freeze, table, figure, or manuscript was
   created.
 
-All notable changes are recorded here. The format follows Keep a Changelog; the
-project has not yet made a public analytical release.
+All notable changes are recorded here. The format follows Keep a Changelog;
+the dated entries above record the public analytical release and its
+administrative correction.
 
 ## [Unreleased]
 
