@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-22 — GitHub release-state reconciliation
+
+- Recorded the existing annotated `v1.0.0` tag and the corresponding GitHub
+  release after independently verifying that both are public and point to the
+  Zenodo-publication commit.
+- Removed the remaining candidate-stage wording from the repository-level
+  AI-assistance disclosure and strengthened the package self-check against
+  stale tag, release, and disclosure state.
+- Retained the CFF software release date of 2026-07-21 because the annotated
+  tag was created on that date in America/New_York; GitHub's UTC release
+  timestamp is 2026-07-22. No scientific file or result changed.
+
 ## 2026-07-22 — Zenodo manuscript publication
 
 - Published the existing nine-file Zenodo manuscript record at

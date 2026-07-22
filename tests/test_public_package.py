@@ -57,7 +57,20 @@ def test_public_identity_and_release_state() -> None:
     assert ("Reserved" + " DOI") not in combined
     assert ("will be made " + "publicly available upon release") not in combined
     assert "are publicly available at" in combined
-    assert "Zenodo manuscript record: published" in (ROOT / "RELEASE_STATUS.md").read_text()
+    release_status = (ROOT / "RELEASE_STATUS.md").read_text()
+    assert "Zenodo manuscript record: published" in release_status
+    assert "GitHub release: exactly one" in release_status
+    assert "releases/tag/v1.0.0" in release_status
+    assert "GitHub tag or release: none" not in release_status
+    ai_disclosure = (ROOT / "AI_ASSISTANCE.md").read_text()
+    assert "included in this public repository" in ai_disclosure
+    assert "included in this candidate" not in ai_disclosure
     assert "https://doi.org/10.5281/zenodo.21434897" in (ROOT / "README.md").read_text()
     assert not (ROOT / "ZENODO_METADATA_DRAFT.md").exists()
     assert (ROOT / "ZENODO_METADATA.md").is_file()
+
+
+def test_citation_dates_match_local_release_and_zenodo_publication() -> None:
+    citation = (ROOT / "CITATION.cff").read_text()
+    assert "date-released: 2026-07-21" in citation
+    assert "date-published: 2026-07-22" in citation
