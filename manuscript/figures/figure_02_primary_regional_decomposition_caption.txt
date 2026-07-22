@@ -1,0 +1,1 @@
+Figure 2. Primary national and regional decomposition. Points show site-equal modeled ozone differences and horizontal bars show empirical 95% NOAA-region-stratified whole-site bootstrap percentile intervals. The response component is temperature-standardized and associational; the decomposition does not identify causal mechanisms.

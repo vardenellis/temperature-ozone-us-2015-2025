@@ -1,0 +1,11 @@
+scope,all_one_sites,all_zero_sites,one_count,rows,sites,varying_sites,zero_count,separation_status
+Northeast,0,6,3332,362374,158,152,359042,quasi_complete_separation
+Northern Rockies and Plains,0,2,300,89917,34,32,89617,quasi_complete_separation
+Northwest,0,2,256,37820,21,19,37564,quasi_complete_separation
+Ohio Valley,0,6,2428,314379,133,127,311951,quasi_complete_separation
+South,0,4,3745,375493,128,124,371748,quasi_complete_separation
+Southeast,0,26,781,368839,136,110,368058,quasi_complete_separation
+Southwest,0,0,5457,323121,96,96,317664,no_separation
+Upper Midwest,0,1,1300,127639,59,58,126339,quasi_complete_separation
+West,0,8,19235,396971,119,111,377736,quasi_complete_separation
+national,,55,36834,2396553,884,829,2359719,model rejected

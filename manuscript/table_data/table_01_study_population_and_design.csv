@@ -1,0 +1,11 @@
+category,element,frozen_value,numeric_value,units
+Population,Represented sites,884,884,sites
+Population,Site-days,2396553,2396553,site-days
+Periods,Early / later rows,1192343 / 1204210,,site-days
+Periods,Comparison,2015-2019 versus 2021-2025; 2020 excluded,,years
+Geography,NOAA climate regions,9,9,regions
+Eligibility,Completeness,>=75% matched operational required-season days; >=4 qualifying years per period,,rule
+Support,Regional common support,2 C bins; >=30 rows per period; >=20 sites; >=80% retention; 234 retained bins,234,retained region-specific bins
+Model,Working model,Gaussian identity-link unregularized OLS,,model specification
+Model,Terms,site fixed effects; region-specific later-period intercepts; region-by-period four-column centered natural-cubic TMAX basis; region-by-period six-column centered cyclic day-of-year basis,,model specification
+Uncertainty,Bootstrap,"1,000-success NOAA-region-stratified whole-site percentile bootstrap",1000,successful whole-site replicates

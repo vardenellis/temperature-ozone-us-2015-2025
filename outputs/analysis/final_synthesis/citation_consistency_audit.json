@@ -1,0 +1,69 @@
+{
+  "artifact_only": true,
+  "audit": "citation_consistency",
+  "checks": [
+    {
+      "details": "manuscript/citation_traceability.csv",
+      "name": "citation_traceability_exists",
+      "passed": true
+    },
+    {
+      "details": "manuscript/references.bib",
+      "name": "bibliography_exists",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "manuscript_inputs_exist",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "required_headers",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "all_citations_traced",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "traced_keys_are_cited",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "all_citations_in_bibliography",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "all_trace_rows_verified",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "all_citation_sources_exist",
+      "passed": true
+    },
+    {
+      "details": {
+        "placeholder_rows": 0,
+        "placeholder_tokens": 0
+      },
+      "name": "placeholder_rows_match_text",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "new_bootstrap_run": false,
+  "new_data_accessed": false,
+  "new_model_run": false,
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "warnings": [
+    "Unresolved citation placeholders: 0"
+  ]
+}

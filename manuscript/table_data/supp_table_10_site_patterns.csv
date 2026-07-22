@@ -1,0 +1,11 @@
+all_zero_site_count,elevated_in_both_periods,elevated_only_early,elevated_only_later,no_elevated_days,scope,site_count
+6,139,7,6,6,Northeast,158
+2,17,0,15,2,Northern Rockies and Plains,34
+2,17,1,1,2,Northwest,21
+6,111,9,7,6,Ohio Valley,133
+4,105,1,18,4,South,128
+26,74,23,13,26,Southeast,136
+0,94,2,0,0,Southwest,96
+1,45,0,13,1,Upper Midwest,59
+8,98,12,1,8,West,119
+55,700,55,74,55,national,884

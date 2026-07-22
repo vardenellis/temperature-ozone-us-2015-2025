@@ -1,0 +1,2580 @@
+{
+  "schema_version": 1,
+  "release_version": "1.0.0",
+  "repository_visibility": "public",
+  "zenodo_published": false,
+  "file_count_excluding_manifest_and_checksum": 179,
+  "original_private_git_history_included": false,
+  "processed_panel_included": false,
+  "raw_source_data_included": false,
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 13,
+      "sha256": "547f59603028195ff9f8a87d04c4651551e8bd0d68f075257dfd549cd846b25b",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": ".gitignore",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 161,
+      "sha256": "6550e0644302425aae28dbf5d09a5cb4ab9c9ae82bb4e9ca24c47ea7007917ff",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "AI_ASSISTANCE.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 443,
+      "sha256": "f382e30772798d1016d6d231f60c3a9e0425e225c417b17479e0446ef7585c75",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 33371,
+      "sha256": "3dea39251dd2e7f274af6ed33003b1db6eb3bbd32bab308a593cea1483664384",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "CITATION.cff",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 1135,
+      "sha256": "7d6f038ac62c7f221398c87c5a8a49ffb0bfeb6eb03d6023083bb11bdccece52",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "CODE_LICENSE_DECISION.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 304,
+      "sha256": "b9a396470c71db7ee7f3fe3759073536113ecf15f0455188ef94ea1b634ce39c",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "CONTENT_LICENSE_NOTICE.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 471,
+      "sha256": "89ac44a143c1451e1d2a1b44c8f8fecb25ccdb991edbba1ba749b24754d6757c",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "FRESH_ENVIRONMENT_VALIDATION.json",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 1964,
+      "sha256": "ef6f955654af352248066b6ecf8e092f74641e54a9c78c28fccaa1ffb822da95",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "IDENTITY_AND_PRIVACY_AUDIT.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 798,
+      "sha256": "f0e1c6cd109eee20a9cbf9af2165a05155769781b73aba1ae39a50f2b3d16b8d",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "IDENTITY_AND_PRIVACY_FINDINGS.json",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 3962,
+      "sha256": "a7fe9027ce370a121b09f6bb7125503391a3bb2516e8799640450cce25dc888d",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "LICENSE",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 1069,
+      "sha256": "ec71b910c96a6038e416de279607196f600c0fc9913731adc1319305dc9a635d",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "PACKAGE_QUALITY_AUDIT.json",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 4201,
+      "sha256": "1547fbd18b976065864b091bb28627c64f34c6c293b556de847029ae10daf7b1",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "PUBLIC_RELEASE_CANDIDATE_MARKER.json",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 286,
+      "sha256": "63276115e7279370c98c8a7a157ff79922e96775202dd48e66490f42a01f9e7f",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "README.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 5091,
+      "sha256": "2805648e56b9140c6ee28420f482e444068bd9ea345b1a769808de93e56fadd8",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "RELEASE_STATUS.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 610,
+      "sha256": "936c856297bfb7fbbdb96bc11bd48a3a99dcc2e22e9bb6b502511cdbf4d3b307",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "REPRODUCIBILITY_SCOPE.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 1131,
+      "sha256": "85b984b394d113fa485ef4521e081127ce43c0aa0331cb5c0b506c70efaf65ee",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "REPRODUCTION.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 827,
+      "sha256": "ae3396df68b306c72b5d1c5823252d45aec8231ed8e3684a4962ce456f816390",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "SOURCE_DATA_RETRIEVAL.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 1072,
+      "sha256": "859a42a24b6b6d853ed6218436a91f079fa850af73928f396afbba429807037d",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "ZENODO_METADATA_DRAFT.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 2581,
+      "sha256": "b9814f21d5ae5ba281c64e24925bc8003e0edc45e78f82e9faadce7ce41959cf",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_event_2025_quality_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_event_2025_quality_bootstrap.py",
+        "private_source_sha256": "2b1a33d0b99d6d10e0fca2fa628ec8554ca5d88fe507d75e9dbbf938aac3182b",
+        "transformations": []
+      },
+      "bytes": 19029,
+      "sha256": "2b1a33d0b99d6d10e0fca2fa628ec8554ca5d88fe507d75e9dbbf938aac3182b",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_event_2025_quality_real.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_event_2025_quality_real.py",
+        "private_source_sha256": "bd3bef31937d4248f2fb2fc19f35d7c70bff982e208c698ec8ce516c57010794",
+        "transformations": []
+      },
+      "bytes": 20504,
+      "sha256": "bd3bef31937d4248f2fb2fc19f35d7c70bff982e208c698ec8ce516c57010794",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_family5_descriptive_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_family5_descriptive_bootstrap.py",
+        "private_source_sha256": "bd13b782f202947e4dda6d7a943ef2ddb062c8429de19627090a78ac97898f63",
+        "transformations": []
+      },
+      "bytes": 16269,
+      "sha256": "bd13b782f202947e4dda6d7a943ef2ddb062c8429de19627090a78ac97898f63",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_family5_real_descriptive.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_family5_real_descriptive.py",
+        "private_source_sha256": "d3ce54ceb729e6f4a17bdec33531a4b913739a74681d706e32c76e04122da1cf",
+        "transformations": []
+      },
+      "bytes": 20410,
+      "sha256": "d3ce54ceb729e6f4a17bdec33531a4b913739a74681d706e32c76e04122da1cf",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_network_breadth_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_network_breadth_bootstrap.py",
+        "private_source_sha256": "bd59a63a2479b22370841e7003f045631164cf372f7729ba1c304ca70c192687",
+        "transformations": []
+      },
+      "bytes": 14537,
+      "sha256": "bd59a63a2479b22370841e7003f045631164cf372f7729ba1c304ca70c192687",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_network_breadth_point_estimates.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_network_breadth_point_estimates.py",
+        "private_source_sha256": "209a8124748505d6b81f2cfc5b8683dbb6f2574fdab510fa37ba0b4fd63e1c9d",
+        "transformations": []
+      },
+      "bytes": 16170,
+      "sha256": "209a8124748505d6b81f2cfc5b8683dbb6f2574fdab510fa37ba0b4fd63e1c9d",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_primary_continuous_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_primary_continuous_bootstrap.py",
+        "private_source_sha256": "cd3f8c05519af4f1eb5b04609e64cf60084a694f77eba34e8452caaf5af7a435",
+        "transformations": []
+      },
+      "bytes": 14500,
+      "sha256": "cd3f8c05519af4f1eb5b04609e64cf60084a694f77eba34e8452caaf5af7a435",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_primary_continuous_fit.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_primary_continuous_fit.py",
+        "private_source_sha256": "7b578b50b21873a13525590d2431c6fb25f0b79e1bde03530303ec9d6f138936",
+        "transformations": []
+      },
+      "bytes": 14206,
+      "sha256": "7b578b50b21873a13525590d2431c6fb25f0b79e1bde03530303ec9d6f138936",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_sensitivity_2020_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_sensitivity_2020_bootstrap.py",
+        "private_source_sha256": "6c3373e419414c9a7e25bb813a507f69d7582b0de0f536525976dd96dddf0d37",
+        "transformations": []
+      },
+      "bytes": 19081,
+      "sha256": "6c3373e419414c9a7e25bb813a507f69d7582b0de0f536525976dd96dddf0d37",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_sensitivity_2020_point_estimates.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_sensitivity_2020_point_estimates.py",
+        "private_source_sha256": "7a567f59e78fd1f34ca50a4a4f4c3ab7e99328923aee896537ba683b7db96c7e",
+        "transformations": []
+      },
+      "bytes": 19621,
+      "sha256": "7a567f59e78fd1f34ca50a4a4f4c3ab7e99328923aee896537ba683b7db96c7e",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_temperature_spline_3df_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_temperature_spline_3df_bootstrap.py",
+        "private_source_sha256": "21a8e10834707eb64e63a01c0819eab86e528a57861977e47da0c497d518f555",
+        "transformations": []
+      },
+      "bytes": 16127,
+      "sha256": "21a8e10834707eb64e63a01c0819eab86e528a57861977e47da0c497d518f555",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "analysis_scripts/run_temperature_spline_3df_real.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "scripts/run_temperature_spline_3df_real.py",
+        "private_source_sha256": "2b5d8ee6e48b7cee619ce550367106bfe266c652ad7d4f7b753a8f2da9751cf8",
+        "transformations": []
+      },
+      "bytes": 17051,
+      "sha256": "2b5d8ee6e48b7cee619ce550367106bfe266c652ad7d4f7b753a8f2da9751cf8",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "config/analysis.yml",
+      "role": "frozen_configuration",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "config/analysis.yml",
+        "private_source_sha256": "c3dd7f02000583fc25582d6ca2a333d4dc49cec0fac9bae20a0bbd19fdf631cb",
+        "transformations": []
+      },
+      "bytes": 11631,
+      "sha256": "c3dd7f02000583fc25582d6ca2a333d4dc49cec0fac9bae20a0bbd19fdf631cb",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "docs/data_dictionary.md",
+        "private_source_sha256": "1405c36174693627700d506ff6c0a2d0557da64e07b059610f48fbd49516f9f5",
+        "transformations": []
+      },
+      "bytes": 22894,
+      "sha256": "1405c36174693627700d506ff6c0a2d0557da64e07b059610f48fbd49516f9f5",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "docs/decomposition_estimand.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "docs/decomposition_estimand.md",
+        "private_source_sha256": "6a4038bedcead67f310bbb335328c673945830df26a6830cb0a4a871c3053312",
+        "transformations": []
+      },
+      "bytes": 6869,
+      "sha256": "6a4038bedcead67f310bbb335328c673945830df26a6830cb0a4a871c3053312",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "docs/epa_2025_completeness.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "docs/epa_2025_completeness.md",
+        "private_source_sha256": "87774425cb1317dc502d318c27ae639336c3dba5e2f3186f2a7eb989542e7444",
+        "transformations": []
+      },
+      "bytes": 7256,
+      "sha256": "87774425cb1317dc502d318c27ae639336c3dba5e2f3186f2a7eb989542e7444",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "docs/methodological_risks.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "docs/methodological_risks.md",
+        "private_source_sha256": "ac6413081ce548303c2017d4b131a31cba070b577ef0cf7c0f078ffdf763018b",
+        "transformations": []
+      },
+      "bytes": 8291,
+      "sha256": "ac6413081ce548303c2017d4b131a31cba070b577ef0cf7c0f078ffdf763018b",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "docs/source_inventory.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "docs/source_inventory.md",
+        "private_source_sha256": "5333933a189482a0aba26a0acef88f93d938be5e85aae6156d630db4e40da14b",
+        "transformations": []
+      },
+      "bytes": 11633,
+      "sha256": "5333933a189482a0aba26a0acef88f93d938be5e85aae6156d630db4e40da14b",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "environment/fresh-environment-resolved.txt",
+      "role": "dependency_specification",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 645,
+      "sha256": "c1dc052968a2de37876f8592ecb874ca912399474f460a1f9fc04d712c42fbfe",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "environment/requirements-analysis.txt",
+      "role": "dependency_specification",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 224,
+      "sha256": "96fcd978cff2fb11633cb743407b8b7b5d328e5bf269824e293a64f70c2d786f",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "environment/requirements-render.txt",
+      "role": "dependency_specification",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 221,
+      "sha256": "c6c51de4ba5b37a5a3890d5ea416d6e17f20eebaae55b4e5513de34effe6d093",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/apply_pdf_metadata.py",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 7981,
+      "sha256": "fc6cb7dc7dde83fa0497b5a4be1e7731406424241ce8ff4a16e8b34e752b1e8a",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/citation_traceability.csv",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/citation_traceability.csv",
+        "private_source_sha256": "9eb74fd72b9ea7f61c720fc66ff971042f80082d3cece1eedab4c5b3406c97e4",
+        "transformations": []
+      },
+      "bytes": 19328,
+      "sha256": "9eb74fd72b9ea7f61c720fc66ff971042f80082d3cece1eedab4c5b3406c97e4",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/build_figure_data.py",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/build_figure_data.py",
+        "private_source_sha256": "11b072f576a7cec009742571d77eb3a00d6e05b1b98a747249a97e74322fe4e5",
+        "transformations": []
+      },
+      "bytes": 12869,
+      "sha256": "11b072f576a7cec009742571d77eb3a00d6e05b1b98a747249a97e74322fe4e5",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/figure_01_study_flow.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/figure_01_study_flow.csv",
+        "private_source_sha256": "fa48d6d57d6dd721fbea8d4287b22139dbe7215783ee2ce589808618b0243ec5",
+        "transformations": []
+      },
+      "bytes": 558,
+      "sha256": "fa48d6d57d6dd721fbea8d4287b22139dbe7215783ee2ce589808618b0243ec5",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/figure_02_primary_regional_decomposition.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/figure_02_primary_regional_decomposition.csv",
+        "private_source_sha256": "57faad8beef0cf0ee76e19f0e10e272842b59ed748fa0f93e1c245e5e62e3031",
+        "transformations": []
+      },
+      "bytes": 10498,
+      "sha256": "57faad8beef0cf0ee76e19f0e10e272842b59ed748fa0f93e1c245e5e62e3031",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/figure_03_sensitivity_comparison.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/figure_03_sensitivity_comparison.csv",
+        "private_source_sha256": "8e143f7df35017263deead9f68a57b774a8ad85afcf712e600ffed5bfcaf25e8",
+        "transformations": []
+      },
+      "bytes": 10737,
+      "sha256": "8e143f7df35017263deead9f68a57b774a8ad85afcf712e600ffed5bfcaf25e8",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/figure_04_regional_total_heterogeneity.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/figure_04_regional_total_heterogeneity.csv",
+        "private_source_sha256": "dc43adea84fb5fb9c6fea296557a3acb02608a802f1cbf53e01a16b3129afbe2",
+        "transformations": []
+      },
+      "bytes": 3082,
+      "sha256": "dc43adea84fb5fb9c6fea296557a3acb02608a802f1cbf53e01a16b3129afbe2",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/figure_05_continuous_vs_threshold.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/figure_05_continuous_vs_threshold.csv",
+        "private_source_sha256": "265955d9b919f180a5461ec21ae99e773826ceefe246f404f6f9ca601dc2fd3d",
+        "transformations": []
+      },
+      "bytes": 7157,
+      "sha256": "265955d9b919f180a5461ec21ae99e773826ceefe246f404f6f9ca601dc2fd3d",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/figure_inventory.json",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/figure_inventory.json",
+        "private_source_sha256": "4712486b6f1fcf4bae434ac8e4927f5785896d5103e55221b30824cf7610cb33",
+        "transformations": []
+      },
+      "bytes": 4812,
+      "sha256": "4712486b6f1fcf4bae434ac8e4927f5785896d5103e55221b30824cf7610cb33",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figure_data/figure_manifest.json",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figure_data/figure_manifest.json",
+        "private_source_sha256": "4712486b6f1fcf4bae434ac8e4927f5785896d5103e55221b30824cf7610cb33",
+        "transformations": []
+      },
+      "bytes": 4812,
+      "sha256": "4712486b6f1fcf4bae434ac8e4927f5785896d5103e55221b30824cf7610cb33",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/_common.py",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/_common.py",
+        "private_source_sha256": "76e02ff7ae0a9d3278ca9b4adf46844b3afb1289fab605aba632078e8dde4a08",
+        "transformations": []
+      },
+      "bytes": 2846,
+      "sha256": "76e02ff7ae0a9d3278ca9b4adf46844b3afb1289fab605aba632078e8dde4a08",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_01_study_flow.png",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_01_study_flow.png",
+        "private_source_sha256": "debd82079a58219b019677faef365dc977cc6c6c6db3bb5306a6cd5d066b9599",
+        "transformations": []
+      },
+      "bytes": 360386,
+      "sha256": "debd82079a58219b019677faef365dc977cc6c6c6db3bb5306a6cd5d066b9599",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_01_study_flow.svg",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_01_study_flow.svg",
+        "private_source_sha256": "fdd770f1bb24ae084329eb63cbb0736ded7d430e425d4a71e66bc766bc4d30cc",
+        "transformations": []
+      },
+      "bytes": 12625,
+      "sha256": "fdd770f1bb24ae084329eb63cbb0736ded7d430e425d4a71e66bc766bc4d30cc",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_01_study_flow_caption.txt",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_01_study_flow_caption.txt",
+        "private_source_sha256": "346150840ccc880047d09c175f180c89ac21c10dcec771329b885447ca7eb74c",
+        "transformations": []
+      },
+      "bytes": 417,
+      "sha256": "346150840ccc880047d09c175f180c89ac21c10dcec771329b885447ca7eb74c",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_02_primary_regional_decomposition.png",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_02_primary_regional_decomposition.png",
+        "private_source_sha256": "8b6769b45ad052b373fb9801714c7c5f78e00733de3b88af88e7101c76de9ec8",
+        "transformations": []
+      },
+      "bytes": 197215,
+      "sha256": "8b6769b45ad052b373fb9801714c7c5f78e00733de3b88af88e7101c76de9ec8",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_02_primary_regional_decomposition.svg",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_02_primary_regional_decomposition.svg",
+        "private_source_sha256": "221811311a6351a820cf1a91e825afee245a5db9f7f1042ecbfdf4288a2df9e2",
+        "transformations": []
+      },
+      "bytes": 39902,
+      "sha256": "221811311a6351a820cf1a91e825afee245a5db9f7f1042ecbfdf4288a2df9e2",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_02_primary_regional_decomposition_caption.txt",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_02_primary_regional_decomposition_caption.txt",
+        "private_source_sha256": "ba903af0e14873f3c7982b24e5ca522c0b22c14ba2e79132b2896d835964a0c6",
+        "transformations": []
+      },
+      "bytes": 334,
+      "sha256": "ba903af0e14873f3c7982b24e5ca522c0b22c14ba2e79132b2896d835964a0c6",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_03_regional_total_heterogeneity.png",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_03_regional_total_heterogeneity.png",
+        "private_source_sha256": "519adeae6932a0a698e32ac3e3ca4637252061bf6f41fed92e32e150ea6dc7af",
+        "transformations": []
+      },
+      "bytes": 162152,
+      "sha256": "519adeae6932a0a698e32ac3e3ca4637252061bf6f41fed92e32e150ea6dc7af",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_03_regional_total_heterogeneity.svg",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_03_regional_total_heterogeneity.svg",
+        "private_source_sha256": "7ee7b14acda471438aed2214994dd4d2fe3a4427ac343ea645be8b5f45296cf0",
+        "transformations": []
+      },
+      "bytes": 19620,
+      "sha256": "7ee7b14acda471438aed2214994dd4d2fe3a4427ac343ea645be8b5f45296cf0",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_03_regional_total_heterogeneity_caption.txt",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_03_regional_total_heterogeneity_caption.txt",
+        "private_source_sha256": "bdd465eea7b411c9f7676923b1ba31b3b4171a9d94b237d222f6992a8a494711",
+        "transformations": []
+      },
+      "bytes": 346,
+      "sha256": "bdd465eea7b411c9f7676923b1ba31b3b4171a9d94b237d222f6992a8a494711",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_04_sensitivity_comparison.png",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_04_sensitivity_comparison.png",
+        "private_source_sha256": "8f8f9ef4b09aaf1adaefc2ea9ab1fd734708134728d6f000df26fe249d32dfab",
+        "transformations": []
+      },
+      "bytes": 343610,
+      "sha256": "8f8f9ef4b09aaf1adaefc2ea9ab1fd734708134728d6f000df26fe249d32dfab",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_04_sensitivity_comparison.svg",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_04_sensitivity_comparison.svg",
+        "private_source_sha256": "5f2c42d5f985fbfb2819164f87cdddd193aac321f0c7be9da1d3441578f8e32e",
+        "transformations": []
+      },
+      "bytes": 48375,
+      "sha256": "5f2c42d5f985fbfb2819164f87cdddd193aac321f0c7be9da1d3441578f8e32e",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_04_sensitivity_comparison_caption.txt",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_04_sensitivity_comparison_caption.txt",
+        "private_source_sha256": "900814619cf945c0fad29e029a559c97dd5b5eaf9e425d34a33d2267bc9041f4",
+        "transformations": []
+      },
+      "bytes": 432,
+      "sha256": "900814619cf945c0fad29e029a559c97dd5b5eaf9e425d34a33d2267bc9041f4",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_05_continuous_vs_threshold.png",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_05_continuous_vs_threshold.png",
+        "private_source_sha256": "3fa254788cb17a9a25ffdb7dd22512f35782281f4af39822dfd80e27f31a4294",
+        "transformations": []
+      },
+      "bytes": 262265,
+      "sha256": "3fa254788cb17a9a25ffdb7dd22512f35782281f4af39822dfd80e27f31a4294",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_05_continuous_vs_threshold.svg",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_05_continuous_vs_threshold.svg",
+        "private_source_sha256": "b30fcee0c0cab32cd247e680cb084e55bd047c8de51e862d9abb2a52e78346a8",
+        "transformations": []
+      },
+      "bytes": 36024,
+      "sha256": "b30fcee0c0cab32cd247e680cb084e55bd047c8de51e862d9abb2a52e78346a8",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/figure_05_continuous_vs_threshold_caption.txt",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/figure_05_continuous_vs_threshold_caption.txt",
+        "private_source_sha256": "4c24d020df578e062eea89bc43818a68e79a98545e71632e8e949601b637595c",
+        "transformations": []
+      },
+      "bytes": 532,
+      "sha256": "4c24d020df578e062eea89bc43818a68e79a98545e71632e8e949601b637595c",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/generate_figure_01.py",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/generate_figure_01.py",
+        "private_source_sha256": "a6445ea0080ab602d38756685361e96b8294c2f976434fad29bcb3fe11d4fd42",
+        "transformations": []
+      },
+      "bytes": 3754,
+      "sha256": "a6445ea0080ab602d38756685361e96b8294c2f976434fad29bcb3fe11d4fd42",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/generate_figure_02.py",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/generate_figure_02.py",
+        "private_source_sha256": "b071f640d0bb2d852070a5a22083811db2f8a1fbf91da3f994bba3a9b4d0a2c0",
+        "transformations": []
+      },
+      "bytes": 3171,
+      "sha256": "b071f640d0bb2d852070a5a22083811db2f8a1fbf91da3f994bba3a9b4d0a2c0",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/generate_figure_03.py",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/generate_figure_03.py",
+        "private_source_sha256": "bed2a441a14b9be880070f58e133a73037e43d09cc328a505df133b6ac851cff",
+        "transformations": []
+      },
+      "bytes": 1735,
+      "sha256": "bed2a441a14b9be880070f58e133a73037e43d09cc328a505df133b6ac851cff",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/generate_figure_04.py",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/generate_figure_04.py",
+        "private_source_sha256": "47b41d2b163a3a056a07b5adc4e67d7f951d2f962d3cf3c6584e1cf6350f34a2",
+        "transformations": []
+      },
+      "bytes": 3546,
+      "sha256": "47b41d2b163a3a056a07b5adc4e67d7f951d2f962d3cf3c6584e1cf6350f34a2",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/figures/generate_figure_05.py",
+      "role": "final_figure_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/figures/generate_figure_05.py",
+        "private_source_sha256": "8d95d37631aa959eaeb7d9ef48f5d2fb0a8e06a7ca4a92533026cc5bfaad62a5",
+        "transformations": []
+      },
+      "bytes": 2799,
+      "sha256": "8d95d37631aa959eaeb7d9ef48f5d2fb0a8e06a7ca4a92533026cc5bfaad62a5",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/manuscript.html",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/manuscript.html",
+        "private_source_sha256": "51899a62bab67c4eb51f0e0c5a0cf60e00490873a393ec9559b71a22322fa298",
+        "transformations": []
+      },
+      "bytes": 1834624,
+      "sha256": "51899a62bab67c4eb51f0e0c5a0cf60e00490873a393ec9559b71a22322fa298",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/manuscript.md",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "curated",
+        "private_source_path": "manuscript/manuscript.md",
+        "private_source_sha256": "19f937a793b505ce160bbe7b290a58eaf8b53e3892994c251339230e873c1093",
+        "transformations": [
+          "apply three confirmed administrative declarations"
+        ]
+      },
+      "bytes": 46475,
+      "sha256": "19f937a793b505ce160bbe7b290a58eaf8b53e3892994c251339230e873c1093",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/manuscript.pdf",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/manuscript.pdf",
+        "private_source_sha256": "d05688f3bdf7fee9e25252a7516c50fa462a566361f5cc13c99e3a2f4eb694a5",
+        "transformations": []
+      },
+      "bytes": 1608062,
+      "sha256": "d05688f3bdf7fee9e25252a7516c50fa462a566361f5cc13c99e3a2f4eb694a5",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/number_traceability.csv",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/number_traceability.csv",
+        "private_source_sha256": "a664a153bd81d91c04321e87f2a218bad325d05e7b81f226fb6214f1bc17c8b0",
+        "transformations": []
+      },
+      "bytes": 648630,
+      "sha256": "a664a153bd81d91c04321e87f2a218bad325d05e7b81f226fb6214f1bc17c8b0",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/publication.css",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/publication.css",
+        "private_source_sha256": "2d4df07498a24beeeb4bedeab6afe35045afdf5dd79929e6b8a70651bbe7bc75",
+        "transformations": []
+      },
+      "bytes": 4873,
+      "sha256": "2d4df07498a24beeeb4bedeab6afe35045afdf5dd79929e6b8a70651bbe7bc75",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/references.bib",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/references.bib",
+        "private_source_sha256": "1227517244567e368e4111a87ec7cfd84dc525497f370b827a096058d6d43486",
+        "transformations": []
+      },
+      "bytes": 6607,
+      "sha256": "1227517244567e368e4111a87ec7cfd84dc525497f370b827a096058d6d43486",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/render_publication.sh",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/render_publication.sh",
+        "private_source_sha256": "3e0bf149c63796a95e0a82b230ef7f247d7923f51308408e31299cf9d4f7b45e",
+        "transformations": []
+      },
+      "bytes": 1667,
+      "sha256": "3e0bf149c63796a95e0a82b230ef7f247d7923f51308408e31299cf9d4f7b45e",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/supplement.html",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/supplement.html",
+        "private_source_sha256": "4638ea2b3cd0bf96ed4e297a58955557752218c1b34548f88ac122470ac31aba",
+        "transformations": []
+      },
+      "bytes": 334825,
+      "sha256": "4638ea2b3cd0bf96ed4e297a58955557752218c1b34548f88ac122470ac31aba",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/supplement.md",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/supplement.md",
+        "private_source_sha256": "dc0c76140720b53a792b89dff39747b9ee2482437f7118ac6d675e8aaaab10e6",
+        "transformations": []
+      },
+      "bytes": 232728,
+      "sha256": "dc0c76140720b53a792b89dff39747b9ee2482437f7118ac6d675e8aaaab10e6",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/supplement.pdf",
+      "role": "publication_or_traceability",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/supplement.pdf",
+        "private_source_sha256": "593fa5d6bdff8db9955e03ab6a07ed7feb0e7adec78431054baf50a7135abd82",
+        "transformations": []
+      },
+      "bytes": 4262193,
+      "sha256": "593fa5d6bdff8db9955e03ab6a07ed7feb0e7adec78431054baf50a7135abd82",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_01_primary_abcd.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_01_primary_abcd.csv",
+        "private_source_sha256": "09ec07bf50abff43233d278222e85bcfff756f14ce0317244da5d979901bc5d0",
+        "transformations": []
+      },
+      "bytes": 49171,
+      "sha256": "09ec07bf50abff43233d278222e85bcfff756f14ce0317244da5d979901bc5d0",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_02_all_regional_sensitivities.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_02_all_regional_sensitivities.csv",
+        "private_source_sha256": "3ba72d730a66f540988b75195789114df35653edcb76ea54c4030409363d872e",
+        "transformations": []
+      },
+      "bytes": 390166,
+      "sha256": "3ba72d730a66f540988b75195789114df35653edcb76ea54c4030409363d872e",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_03_2020_handling.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_03_2020_handling.csv",
+        "private_source_sha256": "9d12c156132dc6f77748eaa6c7efc8d9ebb3c2a899fdb4611bc0aaa5bb4378e4",
+        "transformations": []
+      },
+      "bytes": 155057,
+      "sha256": "9d12c156132dc6f77748eaa6c7efc8d9ebb3c2a899fdb4611bc0aaa5bb4378e4",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_04_network_breadth.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_04_network_breadth.csv",
+        "private_source_sha256": "4edc934f925255a813c6a1dd18d484b3d58ce050f9355ac48680917e3fce2825",
+        "transformations": []
+      },
+      "bytes": 55546,
+      "sha256": "4edc934f925255a813c6a1dd18d484b3d58ce050f9355ac48680917e3fce2825",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_05_three_df_spline.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_05_three_df_spline.csv",
+        "private_source_sha256": "ea30d51523bc3d3711f87ba1cd7242cdc293259eaf7ef4896b508f68e5738cbd",
+        "transformations": []
+      },
+      "bytes": 57326,
+      "sha256": "ea30d51523bc3d3711f87ba1cd7242cdc293259eaf7ef4896b508f68e5738cbd",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_06_family4.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_06_family4.csv",
+        "private_source_sha256": "c8691f5590c44be3ae055b4f34ffcc09f91037e0a9df999e69b15b2bb193d928",
+        "transformations": []
+      },
+      "bytes": 167416,
+      "sha256": "c8691f5590c44be3ae055b4f34ffcc09f91037e0a9df999e69b15b2bb193d928",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_07_fit_diagnostics.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_07_fit_diagnostics.csv",
+        "private_source_sha256": "58b5f3c09525704a02a293943fd27f9ec6843a9a110b85fb4e139917dcb89f2c",
+        "transformations": []
+      },
+      "bytes": 3264,
+      "sha256": "58b5f3c09525704a02a293943fd27f9ec6843a9a110b85fb4e139917dcb89f2c",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_08_leverage.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_08_leverage.csv",
+        "private_source_sha256": "7875996e8d69bc038dae9699e89b50b5718311a2a754181bd176126cab406488",
+        "transformations": []
+      },
+      "bytes": 2693,
+      "sha256": "7875996e8d69bc038dae9699e89b50b5718311a2a754181bd176126cab406488",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_09_family5_row_weighted.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_09_family5_row_weighted.csv",
+        "private_source_sha256": "26786096587f5b04c331390eec1e39194d226df5dafecdd549a572eab911d2df",
+        "transformations": []
+      },
+      "bytes": 1325,
+      "sha256": "26786096587f5b04c331390eec1e39194d226df5dafecdd549a572eab911d2df",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_10_site_patterns.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_10_site_patterns.csv",
+        "private_source_sha256": "7215007f23377182eedcef6f58b4baed6b6f650fc60d73721cd503095b7f05be",
+        "transformations": []
+      },
+      "bytes": 395,
+      "sha256": "7215007f23377182eedcef6f58b4baed6b6f650fc60d73721cd503095b7f05be",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_11_binary_failure.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_11_binary_failure.csv",
+        "private_source_sha256": "d3370c40281225dbe3bb328dbc0ffb91d44a217905966f8ab06ed97c7111acff",
+        "transformations": []
+      },
+      "bytes": 750,
+      "sha256": "d3370c40281225dbe3bb328dbc0ffb91d44a217905966f8ab06ed97c7111acff",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_12_amendments.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "curated",
+        "private_source_path": "manuscript/table_data/supp_table_12_amendments.csv",
+        "private_source_sha256": "496c279294019d425295d5b8bfaeae928cf58b69d92f03e0a3745dd21757bbf2",
+        "transformations": [
+          "replace private source locator with public traceability reference"
+        ]
+      },
+      "bytes": 1053,
+      "sha256": "ceda9917e21f4086379d796c860e40a36f723260faa8b57da6d3921d2531dc40",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/supp_table_13_hypothesis_evidence.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/supp_table_13_hypothesis_evidence.csv",
+        "private_source_sha256": "48535ce7ac02c9376fbc4579d532068fbfd7150292bf3500c462f1330974fea1",
+        "transformations": []
+      },
+      "bytes": 1257,
+      "sha256": "48535ce7ac02c9376fbc4579d532068fbfd7150292bf3500c462f1330974fea1",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/table_01_study_population_and_design.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/table_01_study_population_and_design.csv",
+        "private_source_sha256": "f627670b4a878311c56543bfc9cfe1e03b7f915d14bd4b32f3f890442426f2f8",
+        "transformations": []
+      },
+      "bytes": 996,
+      "sha256": "f627670b4a878311c56543bfc9cfe1e03b7f915d14bd4b32f3f890442426f2f8",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/table_02_primary_decomposition.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/table_02_primary_decomposition.csv",
+        "private_source_sha256": "3dad9024fd241527a2d8415a448dfcd614963f151fbd1a61db20f90156c7de7f",
+        "transformations": []
+      },
+      "bytes": 4423,
+      "sha256": "3dad9024fd241527a2d8415a448dfcd614963f151fbd1a61db20f90156c7de7f",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/table_03_sensitivity_summary.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/table_03_sensitivity_summary.csv",
+        "private_source_sha256": "c11406684e04e4c775cb757214b7dfcda47e2d75b693e9fb25efaef157dec1aa",
+        "transformations": []
+      },
+      "bytes": 4979,
+      "sha256": "c11406684e04e4c775cb757214b7dfcda47e2d75b693e9fb25efaef157dec1aa",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/table_04_descriptive_elevated_ozone.csv",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/table_04_descriptive_elevated_ozone.csv",
+        "private_source_sha256": "d609bcc6eda6245fe38966b720703fee4e69368cff08c0be7cf79bc78e2e183e",
+        "transformations": []
+      },
+      "bytes": 5578,
+      "sha256": "d609bcc6eda6245fe38966b720703fee4e69368cff08c0be7cf79bc78e2e183e",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/table_inventory.json",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/table_inventory.json",
+        "private_source_sha256": "ad4271bfb954fc13318af2b2a3055935873d29b2530b8c5efb128133eea304b7",
+        "transformations": []
+      },
+      "bytes": 763,
+      "sha256": "ad4271bfb954fc13318af2b2a3055935873d29b2530b8c5efb128133eea304b7",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/table_data/table_manifest.json",
+      "role": "publication_source_data",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/table_data/table_manifest.json",
+        "private_source_sha256": "f629ba7ac0833f25e7ef4d9a60289d2d3cc2120b2a82289db0294c41ab8878ec",
+        "transformations": []
+      },
+      "bytes": 17419,
+      "sha256": "f629ba7ac0833f25e7ef4d9a60289d2d3cc2120b2a82289db0294c41ab8878ec",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/generate_tables.py",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/generate_tables.py",
+        "private_source_sha256": "9d69b7dcbb88ea01563fb3d1c2bfbc84b4f152724f5da06b4d47ec6c31c3e57f",
+        "transformations": []
+      },
+      "bytes": 41276,
+      "sha256": "9d69b7dcbb88ea01563fb3d1c2bfbc84b4f152724f5da06b4d47ec6c31c3e57f",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_01_primary_abcd.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_01_primary_abcd.md",
+        "private_source_sha256": "be2a3fc01d38dccbf76db22282c3421465a1851c1cc675ba4e7765f801de19f1",
+        "transformations": []
+      },
+      "bytes": 8160,
+      "sha256": "be2a3fc01d38dccbf76db22282c3421465a1851c1cc675ba4e7765f801de19f1",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_02_all_regional_sensitivities.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_02_all_regional_sensitivities.md",
+        "private_source_sha256": "802098db3f7be3c07c690dc4347f42368d2bd2dc484ac1f4762735e68f184133",
+        "transformations": []
+      },
+      "bytes": 89694,
+      "sha256": "802098db3f7be3c07c690dc4347f42368d2bd2dc484ac1f4762735e68f184133",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_03_2020_handling.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_03_2020_handling.md",
+        "private_source_sha256": "1e08feb37de426588068250de99c734f1f6aaa2052cf388cde59a07cd4c68247",
+        "transformations": []
+      },
+      "bytes": 37022,
+      "sha256": "1e08feb37de426588068250de99c734f1f6aaa2052cf388cde59a07cd4c68247",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_04_network_breadth.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_04_network_breadth.md",
+        "private_source_sha256": "902d3ced82802b967f691c33f375fb955dfbc6881a4babb5d96cbb94d0371fec",
+        "transformations": []
+      },
+      "bytes": 12233,
+      "sha256": "902d3ced82802b967f691c33f375fb955dfbc6881a4babb5d96cbb94d0371fec",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_05_three_df_spline.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_05_three_df_spline.md",
+        "private_source_sha256": "6c5e58d751d08c208d83fbe2a7634d047950e08c0e88a9d7f1360db3e90fe410",
+        "transformations": []
+      },
+      "bytes": 12038,
+      "sha256": "6c5e58d751d08c208d83fbe2a7634d047950e08c0e88a9d7f1360db3e90fe410",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_06_family4.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_06_family4.md",
+        "private_source_sha256": "a48d5785bccd0d772e2b317f49584bca7d8474677855d43f1a95a086428eeba4",
+        "transformations": []
+      },
+      "bytes": 39267,
+      "sha256": "a48d5785bccd0d772e2b317f49584bca7d8474677855d43f1a95a086428eeba4",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_07_fit_diagnostics.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_07_fit_diagnostics.md",
+        "private_source_sha256": "914ec78280e8634c37df79b422f8e08c8d835bd0575c9fac63cc7518c3edbe1a",
+        "transformations": []
+      },
+      "bytes": 1820,
+      "sha256": "914ec78280e8634c37df79b422f8e08c8d835bd0575c9fac63cc7518c3edbe1a",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_08_leverage.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_08_leverage.md",
+        "private_source_sha256": "5659f1de1ded5f381cd4918ddb01ad25086b5cee2289a23d40f0d1089f7853fc",
+        "transformations": []
+      },
+      "bytes": 1927,
+      "sha256": "5659f1de1ded5f381cd4918ddb01ad25086b5cee2289a23d40f0d1089f7853fc",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_09_family5_row_weighted.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_09_family5_row_weighted.md",
+        "private_source_sha256": "68712d889948bad79abcfa3d3133e5764cee192d2017ab26e6c8a42bc2751a9f",
+        "transformations": []
+      },
+      "bytes": 1885,
+      "sha256": "68712d889948bad79abcfa3d3133e5764cee192d2017ab26e6c8a42bc2751a9f",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_10_site_patterns.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_10_site_patterns.md",
+        "private_source_sha256": "e5c69ea73e2ae632198bd4472bcd7f84b677c066b20c9d30c6ccfd0bd439f3a8",
+        "transformations": []
+      },
+      "bytes": 707,
+      "sha256": "e5c69ea73e2ae632198bd4472bcd7f84b677c066b20c9d30c6ccfd0bd439f3a8",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_11_binary_failure.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_11_binary_failure.md",
+        "private_source_sha256": "1d1ce79fb7965e49472ca1cba1d2d331a9d6fce1c94def81d6b32ef64871a6b3",
+        "transformations": []
+      },
+      "bytes": 1213,
+      "sha256": "1d1ce79fb7965e49472ca1cba1d2d331a9d6fce1c94def81d6b32ef64871a6b3",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_12_amendments.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "curated",
+        "private_source_path": "manuscript/tables/supp_table_12_amendments.md",
+        "private_source_sha256": "faa042ea4f63abdd912f9130929c127a52562a8c503885e1d610debca2d9f094",
+        "transformations": [
+          "replace private source locator with public traceability reference"
+        ]
+      },
+      "bytes": 1308,
+      "sha256": "ff74d2f58b9a8d0c6f74353ca6cd43db5bc8aaf76b8609cfc1c3ba1e5463dd5b",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/supp_table_13_hypothesis_evidence.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/supp_table_13_hypothesis_evidence.md",
+        "private_source_sha256": "51eeb8519905c92e32cf19daffff58537f590e365b8092ba20fa3bcf06db8b38",
+        "transformations": []
+      },
+      "bytes": 1523,
+      "sha256": "51eeb8519905c92e32cf19daffff58537f590e365b8092ba20fa3bcf06db8b38",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/table_01_study_population_and_design.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/table_01_study_population_and_design.md",
+        "private_source_sha256": "a04910178d874698ed6c2405a7d92eb84ef036f4ec6908d09b4f0dba60a74045",
+        "transformations": []
+      },
+      "bytes": 2262,
+      "sha256": "a04910178d874698ed6c2405a7d92eb84ef036f4ec6908d09b4f0dba60a74045",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/table_02_primary_decomposition.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/table_02_primary_decomposition.md",
+        "private_source_sha256": "b166ea846e69d2b77e4390a3c70f05a42f137b533f78f108e40690efcf36d25f",
+        "transformations": []
+      },
+      "bytes": 1641,
+      "sha256": "b166ea846e69d2b77e4390a3c70f05a42f137b533f78f108e40690efcf36d25f",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/table_03_sensitivity_summary.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/table_03_sensitivity_summary.md",
+        "private_source_sha256": "e3dcf85228eaeef5a2ff52590efad6832b6ba8e1bf5f4cc186b5a36e57abefaf",
+        "transformations": []
+      },
+      "bytes": 2558,
+      "sha256": "e3dcf85228eaeef5a2ff52590efad6832b6ba8e1bf5f4cc186b5a36e57abefaf",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "manuscript/tables/table_04_descriptive_elevated_ozone.md",
+      "role": "final_table_or_generator",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "manuscript/tables/table_04_descriptive_elevated_ozone.md",
+        "private_source_sha256": "a59f8437fc9f5c14b772fbf90389562857ff3fe035f59040da9067a26df03b51",
+        "transformations": []
+      },
+      "bytes": 1615,
+      "sha256": "a59f8437fc9f5c14b772fbf90389562857ff3fe035f59040da9067a26df03b51",
+      "license_scope": "CC-BY-4.0-content",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/citation_consistency_audit.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/citation_consistency_audit.json",
+        "private_source_sha256": "a262638c81630a79714b8f6c1d7e6186cfa1e240f30225c67ab7c00fa400fdbc",
+        "transformations": []
+      },
+      "bytes": 1414,
+      "sha256": "a262638c81630a79714b8f6c1d7e6186cfa1e240f30225c67ab7c00fa400fdbc",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/citation_inventory.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "curated",
+        "private_source_path": "outputs/analysis/final_synthesis/citation_inventory.json",
+        "private_source_sha256": "1214f0599fc942a7fae45b7f519ba25bd38c3a911fbd98568b74b52c91781ae6",
+        "transformations": [
+          "replace obsolete drafting-surface labels with final public inventory"
+        ]
+      },
+      "bytes": 17984,
+      "sha256": "1082959ce2981580a8a6d5df1023b452d023199461f121b6bf03d2b5fad5d552",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/descriptive_threshold_summary.csv",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/descriptive_threshold_summary.csv",
+        "private_source_sha256": "bc32808bed0d002e6f6825d72359ccdcdd02c68f76babc6c470c2a19efeeaade",
+        "transformations": []
+      },
+      "bytes": 6960,
+      "sha256": "bc32808bed0d002e6f6825d72359ccdcdd02c68f76babc6c470c2a19efeeaade",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/hypothesis_adjudication.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/hypothesis_adjudication.json",
+        "private_source_sha256": "3aabff3f0d73d0a8107addeb7d6333e257ffcd269d316dd377e87386e034d32c",
+        "transformations": []
+      },
+      "bytes": 2970,
+      "sha256": "3aabff3f0d73d0a8107addeb7d6333e257ffcd269d316dd377e87386e034d32c",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/hypothesis_evidence.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/hypothesis_evidence.json",
+        "private_source_sha256": "fe137ea10a0369becb9fb86107f1bb50890282533570834af609cff1c1577e5c",
+        "transformations": []
+      },
+      "bytes": 213237,
+      "sha256": "fe137ea10a0369becb9fb86107f1bb50890282533570834af609cff1c1577e5c",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/language_audit.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/language_audit.json",
+        "private_source_sha256": "f40292adfa61c5e8f68041e22d13504cf2d424b5b424dcd78d2adc3f356743cc",
+        "transformations": []
+      },
+      "bytes": 465,
+      "sha256": "f40292adfa61c5e8f68041e22d13504cf2d424b5b424dcd78d2adc3f356743cc",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/numerical_consistency_audit.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/numerical_consistency_audit.json",
+        "private_source_sha256": "34019267508560c957702d8d93947e2a5979b01cac79389725ed01c272666c5f",
+        "transformations": []
+      },
+      "bytes": 1468,
+      "sha256": "34019267508560c957702d8d93947e2a5979b01cac79389725ed01c272666c5f",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/regional_primary_summary.csv",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/regional_primary_summary.csv",
+        "private_source_sha256": "bb1b755d5c106fd78129ffda94b8958afb497da12109ca9bc057ee135ee440a7",
+        "transformations": []
+      },
+      "bytes": 9568,
+      "sha256": "bb1b755d5c106fd78129ffda94b8958afb497da12109ca9bc057ee135ee440a7",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/reporting_freeze.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "curated",
+        "private_source_path": "outputs/analysis/final_synthesis/reporting_freeze.json",
+        "private_source_sha256": "ceb155988a9a5e3c8b57d38f519c456ea5baf2321d7645453c3ac0d683400346",
+        "transformations": [
+          "replace two private provenance locators"
+        ]
+      },
+      "bytes": 1403256,
+      "sha256": "8970fdad1112cb871ed88a88852aba3011486dd45df35f02f5cce55e9af9072e",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/scientific_consistency_audit.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/scientific_consistency_audit.json",
+        "private_source_sha256": "469874b9780c5d6cd51187d5fc37ee62438df9b416d467c88976dd45db27f8f1",
+        "transformations": []
+      },
+      "bytes": 2341,
+      "sha256": "469874b9780c5d6cd51187d5fc37ee62438df9b416d467c88976dd45db27f8f1",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/sensitivity_synthesis.csv",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/sensitivity_synthesis.csv",
+        "private_source_sha256": "3daea42c156ebba2d79645b99176d25b8f4686d0ea657a69a7c00e00a1704011",
+        "transformations": []
+      },
+      "bytes": 481864,
+      "sha256": "3daea42c156ebba2d79645b99176d25b8f4686d0ea657a69a7c00e00a1704011",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/sensitivity_synthesis.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/sensitivity_synthesis.json",
+        "private_source_sha256": "43a218c6b1ae72cf724dcc3a0421b4da1653e565904102e0a1dce1fa5fd00073",
+        "transformations": []
+      },
+      "bytes": 1144956,
+      "sha256": "43a218c6b1ae72cf724dcc3a0421b4da1653e565904102e0a1dce1fa5fd00073",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "outputs/analysis/final_synthesis/table_figure_consistency_audit.json",
+      "role": "frozen_result_or_audit",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "outputs/analysis/final_synthesis/table_figure_consistency_audit.json",
+        "private_source_sha256": "e177d0fd660df26a74463cfb6376750b03eb1eb66e2fb8ef6d75baa73c4e2d75",
+        "transformations": []
+      },
+      "bytes": 1161,
+      "sha256": "e177d0fd660df26a74463cfb6376750b03eb1eb66e2fb8ef6d75baa73c4e2d75",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "preregistration/research_plan.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "preregistration/research_plan.md",
+        "private_source_sha256": "fcaa376cd8a12deec46e4e8b151f5b2d158f590a96511d004eb3b84eabf1fe49",
+        "transformations": []
+      },
+      "bytes": 15664,
+      "sha256": "fcaa376cd8a12deec46e4e8b151f5b2d158f590a96511d004eb3b84eabf1fe49",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "preregistration/statistical_analysis_plan.md",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "preregistration/statistical_analysis_plan.md",
+        "private_source_sha256": "57ce46a05ea64e4d53b1b9712b2ba84666a65266c3c0b69dd902396a079c5a60",
+        "transformations": []
+      },
+      "bytes": 14104,
+      "sha256": "57ce46a05ea64e4d53b1b9712b2ba84666a65266c3c0b69dd902396a079c5a60",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "pyproject.toml",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 793,
+      "sha256": "730a62b7832f4905034b7199b5f524435097bfc6713691c370b74079d31ed8e5",
+      "license_scope": "metadata-no-license-assertion",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "scripts/finalize_publication_html.py",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 2473,
+      "sha256": "48390eb94b0bc8fe4879f7b31d1f7edfde87649f59d2e85c435f6689d6d4b6e7",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "source_manifests/epa.jsonl",
+      "role": "official_source_metadata",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "data/raw/epa/manifest.jsonl",
+        "private_source_sha256": "a62f093d01f66a62828f936939341cb4f85e9b68a298c80eb3836e814b2b9617",
+        "transformations": []
+      },
+      "bytes": 26736,
+      "sha256": "a62f093d01f66a62828f936939341cb4f85e9b68a298c80eb3836e814b2b9617",
+      "license_scope": "third-party-source-metadata",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "source_manifests/noaa.jsonl",
+      "role": "official_source_metadata",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "data/raw/noaa/manifest.jsonl",
+        "private_source_sha256": "70a2d6eec51c23c7e6f3ab5961c137dd4070a0de7c7b25d8d0255542557cf5a9",
+        "transformations": []
+      },
+      "bytes": 14307,
+      "sha256": "70a2d6eec51c23c7e6f3ab5961c137dd4070a0de7c7b25d8d0255542557cf5a9",
+      "license_scope": "third-party-source-metadata",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/__init__.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/__init__.py",
+        "private_source_sha256": "27ad5694ad7abb83f9dd38d48cac7b8151f1930691916882356961262fb8256e",
+        "transformations": []
+      },
+      "bytes": 201,
+      "sha256": "27ad5694ad7abb83f9dd38d48cac7b8151f1930691916882356961262fb8256e",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/analysis_authorization.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/analysis_authorization.py",
+        "private_source_sha256": "c0243f4ad6e6b561dafd3d085ad5397e70cfa76a7b477aa29941f9ae0aa44b84",
+        "transformations": []
+      },
+      "bytes": 6093,
+      "sha256": "c0243f4ad6e6b561dafd3d085ad5397e70cfa76a7b477aa29941f9ae0aa44b84",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/analysis_population.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/analysis_population.py",
+        "private_source_sha256": "ec2bdb4808fd188624bfe7176b1e2cb29d55fc35cbc166d93c72a73c9296c5c4",
+        "transformations": []
+      },
+      "bytes": 7899,
+      "sha256": "ec2bdb4808fd188624bfe7176b1e2cb29d55fc35cbc166d93c72a73c9296c5c4",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/bootstrap_continuous.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/bootstrap_continuous.py",
+        "private_source_sha256": "1d68e989077fbe14e360048194142020fa6d3b742046bcc821113c2cded32eca",
+        "transformations": []
+      },
+      "bytes": 32365,
+      "sha256": "1d68e989077fbe14e360048194142020fa6d3b742046bcc821113c2cded32eca",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/bootstrap_event_2025_quality.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/bootstrap_event_2025_quality.py",
+        "private_source_sha256": "10253624c5b0da6780ac44fad38537ebf15a350adb88a023fa7c17f299c4a988",
+        "transformations": []
+      },
+      "bytes": 33593,
+      "sha256": "10253624c5b0da6780ac44fad38537ebf15a350adb88a023fa7c17f299c4a988",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/bootstrap_network_breadth.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/bootstrap_network_breadth.py",
+        "private_source_sha256": "7ba1372c316d7543424732522c9c84600c7a7b3a1568b120de60285ab2bb36a3",
+        "transformations": []
+      },
+      "bytes": 32362,
+      "sha256": "7ba1372c316d7543424732522c9c84600c7a7b3a1568b120de60285ab2bb36a3",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/bootstrap_temperature_spline_3df.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/bootstrap_temperature_spline_3df.py",
+        "private_source_sha256": "04cd561f55674e57a0e7a9652bd7ac504b3394eb685fcdea9c6b1593acaca78a",
+        "transformations": []
+      },
+      "bytes": 28202,
+      "sha256": "04cd561f55674e57a0e7a9652bd7ac504b3394eb685fcdea9c6b1593acaca78a",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/build_panel.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/build_panel.py",
+        "private_source_sha256": "733e4bc7e508ffd95aec3c7ae0c450bd8e28810837346fca92f6f43e82cb0513",
+        "transformations": []
+      },
+      "bytes": 39745,
+      "sha256": "733e4bc7e508ffd95aec3c7ae0c450bd8e28810837346fca92f6f43e82cb0513",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/clean_epa.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/clean_epa.py",
+        "private_source_sha256": "33b90bd802d0121e1bfca4e09bc36a3489b82dea4e117a23311a2fd8119a1a04",
+        "transformations": []
+      },
+      "bytes": 5848,
+      "sha256": "33b90bd802d0121e1bfca4e09bc36a3489b82dea4e117a23311a2fd8119a1a04",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/clean_noaa.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/clean_noaa.py",
+        "private_source_sha256": "a5564d2ee81ee7b49c843a08f1dc26ea729a0413240f2cad584ea4d336616754",
+        "transformations": []
+      },
+      "bytes": 3052,
+      "sha256": "a5564d2ee81ee7b49c843a08f1dc26ea729a0413240f2cad584ea4d336616754",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/config.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/config.py",
+        "private_source_sha256": "b70df97f377b94ba66ac230a77e8a4997814508fca5200126bdddd840ffb0eca",
+        "transformations": []
+      },
+      "bytes": 28812,
+      "sha256": "b70df97f377b94ba66ac230a77e8a4997814508fca5200126bdddd840ffb0eca",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/download_epa.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/download_epa.py",
+        "private_source_sha256": "7ec05399ec7ba29049ab8728e52fc797f6ffed9daa0ae7388d69e9fe93633035",
+        "transformations": []
+      },
+      "bytes": 6161,
+      "sha256": "7ec05399ec7ba29049ab8728e52fc797f6ffed9daa0ae7388d69e9fe93633035",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/download_noaa.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/download_noaa.py",
+        "private_source_sha256": "d44b8217c2b3ab2e0ae60b0505f331d3108c5ec8f58b865311d9b9b5e70f2030",
+        "transformations": []
+      },
+      "bytes": 2752,
+      "sha256": "d44b8217c2b3ab2e0ae60b0505f331d3108c5ec8f58b865311d9b9b5e70f2030",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/event_2025_quality.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/event_2025_quality.py",
+        "private_source_sha256": "7dbad5755251c580b0bd90b3dfa69df8887b69b95c9c74b4010a63b8c5a17df8",
+        "transformations": []
+      },
+      "bytes": 21716,
+      "sha256": "7dbad5755251c580b0bd90b3dfa69df8887b69b95c9c74b4010a63b8c5a17df8",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/event_2025_quality_audit.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/event_2025_quality_audit.py",
+        "private_source_sha256": "27751343ca41faeb4d33beef2c623e9b27f85c20accb0ff2552c751341753d26",
+        "transformations": []
+      },
+      "bytes": 35199,
+      "sha256": "27751343ca41faeb4d33beef2c623e9b27f85c20accb0ff2552c751341753d26",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/event_2025_quality_real.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/event_2025_quality_real.py",
+        "private_source_sha256": "64df58e5990bee3f136da7247d6edda6cd8df6eaaf2a5b5ada1d7d9dac9ad0ac",
+        "transformations": []
+      },
+      "bytes": 15033,
+      "sha256": "64df58e5990bee3f136da7247d6edda6cd8df6eaaf2a5b5ada1d7d9dac9ad0ac",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/execution_guard.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/execution_guard.py",
+        "private_source_sha256": "15dd7b0992218a7f6c37f335e9f8f6b77092c6b0e7d76953f7896cea534f01dc",
+        "transformations": []
+      },
+      "bytes": 3317,
+      "sha256": "15dd7b0992218a7f6c37f335e9f8f6b77092c6b0e7d76953f7896cea534f01dc",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/family5_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/family5_bootstrap.py",
+        "private_source_sha256": "1d8753a4a1a9e64bb14308e7d5bd220f622780312113f718fcce0d65e7bbc0c2",
+        "transformations": []
+      },
+      "bytes": 39601,
+      "sha256": "1d8753a4a1a9e64bb14308e7d5bd220f622780312113f718fcce0d65e7bbc0c2",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/family5_descriptive.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/family5_descriptive.py",
+        "private_source_sha256": "bb2f0e8e06042d824a4513d8b9bbc356789bec03227264d7cc63934f0bdf4f98",
+        "transformations": []
+      },
+      "bytes": 23142,
+      "sha256": "bb2f0e8e06042d824a4513d8b9bbc356789bec03227264d7cc63934f0bdf4f98",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/family5_descriptive_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/family5_descriptive_bootstrap.py",
+        "private_source_sha256": "6b5cd3c7a37c47ebd65a399d531ca1f952fdd1f32aa04af96690092881b89d1e",
+        "transformations": []
+      },
+      "bytes": 25885,
+      "sha256": "6b5cd3c7a37c47ebd65a399d531ca1f952fdd1f32aa04af96690092881b89d1e",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/family5_postbootstrap_comparison.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/family5_postbootstrap_comparison.py",
+        "private_source_sha256": "e60b1c4f9d1384d0f43a4d4b379e3f57333a96abebdecb69fc7dd42a885b49a5",
+        "transformations": []
+      },
+      "bytes": 10937,
+      "sha256": "e60b1c4f9d1384d0f43a4d4b379e3f57333a96abebdecb69fc7dd42a885b49a5",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/gaussian_model.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/gaussian_model.py",
+        "private_source_sha256": "1aefb86358650483a390dfcce1f57ebc5e6803ad17722055a8120fcdfca604dc",
+        "transformations": []
+      },
+      "bytes": 24300,
+      "sha256": "1aefb86358650483a390dfcce1f57ebc5e6803ad17722055a8120fcdfca604dc",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/match_stations.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/match_stations.py",
+        "private_source_sha256": "a00b5ae808fba9182e6951d82b68874639fdcc016bfb3bb9c9bf33efde7946d6",
+        "transformations": []
+      },
+      "bytes": 12576,
+      "sha256": "a00b5ae808fba9182e6951d82b68874639fdcc016bfb3bb9c9bf33efde7946d6",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/model.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/model.py",
+        "private_source_sha256": "b154ef791593324bc219af5251b85299574257224a626ca9e83ef419c8309ad7",
+        "transformations": []
+      },
+      "bytes": 35513,
+      "sha256": "96159b0a9bc5291fe5956065d2085d62d4fd49a2e1410e86c291505197f4846e",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/network_breadth.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/network_breadth.py",
+        "private_source_sha256": "074f70b5e8ea89b1790060c7614bf3e928d412bc212cbdd945413bc0f62225a8",
+        "transformations": []
+      },
+      "bytes": 9478,
+      "sha256": "074f70b5e8ea89b1790060c7614bf3e928d412bc212cbdd945413bc0f62225a8",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/outcome_preflight.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/outcome_preflight.py",
+        "private_source_sha256": "52259f2f00ea3bc31c1c9531a4d06c1cf5d6e980f540613a8a517ec16a40e797",
+        "transformations": []
+      },
+      "bytes": 26490,
+      "sha256": "52259f2f00ea3bc31c1c9531a4d06c1cf5d6e980f540613a8a517ec16a40e797",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/panel_daily_validation.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/panel_daily_validation.py",
+        "private_source_sha256": "969025724edcdd4e2ac9ea936409b878f8f9c6a29d3b783a7b3b67e512b59a8e",
+        "transformations": []
+      },
+      "bytes": 11783,
+      "sha256": "969025724edcdd4e2ac9ea936409b878f8f9c6a29d3b783a7b3b67e512b59a8e",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/panel_runner.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/panel_runner.py",
+        "private_source_sha256": "469a8711451dda594db210f5a1ca524d599368e98c7ae61e1f52b4e06e3ee1c0",
+        "transformations": []
+      },
+      "bytes": 16089,
+      "sha256": "469a8711451dda594db210f5a1ca524d599368e98c7ae61e1f52b4e06e3ee1c0",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/panel_weather.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/panel_weather.py",
+        "private_source_sha256": "8615404a5c1937c32568f93958c981fa1f00b6ce756e3c8b5191b596708c2da8",
+        "transformations": []
+      },
+      "bytes": 10959,
+      "sha256": "8615404a5c1937c32568f93958c981fa1f00b6ce756e3c8b5191b596708c2da8",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/primary_continuous.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/primary_continuous.py",
+        "private_source_sha256": "7382975ff0246a603f919d3117142272b718236e57979749269241443244e1d0",
+        "transformations": []
+      },
+      "bytes": 31181,
+      "sha256": "7382975ff0246a603f919d3117142272b718236e57979749269241443244e1d0",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/provenance.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/provenance.py",
+        "private_source_sha256": "45a26e6d99d21a37d01085dea96e1a72c83d251a3b147680c3e4376b492f231c",
+        "transformations": []
+      },
+      "bytes": 11718,
+      "sha256": "45a26e6d99d21a37d01085dea96e1a72c83d251a3b147680c3e4376b492f231c",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/scalable_model.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/scalable_model.py",
+        "private_source_sha256": "4800e8de034a74d33091546822ff40bad83500260f4d9b8f3a91138fd3573981",
+        "transformations": []
+      },
+      "bytes": 36405,
+      "sha256": "4800e8de034a74d33091546822ff40bad83500260f4d9b8f3a91138fd3573981",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/sensitivity.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/sensitivity.py",
+        "private_source_sha256": "db27b84bbdd59af281d87f3eef7bb5ee0c5b43ac31599631d5b53bc9877cbfec",
+        "transformations": []
+      },
+      "bytes": 53,
+      "sha256": "db27b84bbdd59af281d87f3eef7bb5ee0c5b43ac31599631d5b53bc9877cbfec",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/sensitivity_2020.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/sensitivity_2020.py",
+        "private_source_sha256": "c17a75c215495ac36079268d5c509184fb722387cc6d7da055b9a2283ea6e8b5",
+        "transformations": []
+      },
+      "bytes": 11902,
+      "sha256": "c17a75c215495ac36079268d5c509184fb722387cc6d7da055b9a2283ea6e8b5",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/sensitivity_2020_bootstrap.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/sensitivity_2020_bootstrap.py",
+        "private_source_sha256": "de978e85a5ffa3e41f10de7cdd5757a6b7c8b063c8c8a0094d21b868c942a974",
+        "transformations": []
+      },
+      "bytes": 27942,
+      "sha256": "de978e85a5ffa3e41f10de7cdd5757a6b7c8b063c8c8a0094d21b868c942a974",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/sensitivity_2020_s1c.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/sensitivity_2020_s1c.py",
+        "private_source_sha256": "3bd5525e45397a18f19cea6d934637aa969ba2291bde4b191e4d29d1276abd78",
+        "transformations": []
+      },
+      "bytes": 25872,
+      "sha256": "3bd5525e45397a18f19cea6d934637aa969ba2291bde4b191e4d29d1276abd78",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/sensitivity_2020_s1c_real.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/sensitivity_2020_s1c_real.py",
+        "private_source_sha256": "7b4c663424addf5c30149cd49c0be2e4218b4b319f3b8e81aaeeba65dd011baa",
+        "transformations": []
+      },
+      "bytes": 31718,
+      "sha256": "7b4c663424addf5c30149cd49c0be2e4218b4b319f3b8e81aaeeba65dd011baa",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/temperature_spline_3df.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/temperature_spline_3df.py",
+        "private_source_sha256": "f0e21355e5fb190a6c7826ea269a387815275908a9851154a41dbcdc053d051e",
+        "transformations": []
+      },
+      "bytes": 26850,
+      "sha256": "f0e21355e5fb190a6c7826ea269a387815275908a9851154a41dbcdc053d051e",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/temperature_spline_3df_audit.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/temperature_spline_3df_audit.py",
+        "private_source_sha256": "f2c8c0fa43f7af73aed0758bc991ce0ad91bd85b2e404aa660ec35613ab94e14",
+        "transformations": []
+      },
+      "bytes": 3674,
+      "sha256": "f2c8c0fa43f7af73aed0758bc991ce0ad91bd85b2e404aa660ec35613ab94e14",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/temperature_spline_3df_real.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/temperature_spline_3df_real.py",
+        "private_source_sha256": "5e404efa232d0b4916ccfb741b3be74323f2492b388269cbae79fe6fe2a1d5dd",
+        "transformations": []
+      },
+      "bytes": 32460,
+      "sha256": "5e404efa232d0b4916ccfb741b3be74323f2492b388269cbae79fe6fe2a1d5dd",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "src/varden_ozone/validate.py",
+      "role": "curated_analysis_source",
+      "derivation": {
+        "kind": "copied",
+        "private_source_path": "src/varden_ozone/validate.py",
+        "private_source_sha256": "b1c0658ee45d459e4f90152d7cac13aaa79a916c81bb9dbcbbe662d594e9e8b8",
+        "transformations": []
+      },
+      "bytes": 26761,
+      "sha256": "b1c0658ee45d459e4f90152d7cac13aaa79a916c81bb9dbcbbe662d594e9e8b8",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    },
+    {
+      "path": "tests/test_public_package.py",
+      "role": "release_documentation",
+      "derivation": {
+        "kind": "generated",
+        "private_source_path": null,
+        "private_source_sha256": null,
+        "transformations": [
+          "generated for public release"
+        ]
+      },
+      "bytes": 2219,
+      "sha256": "bf4a7af6481dff0082bda57150eeb114678fe5916dd56b62aaaf341d033a08cf",
+      "license_scope": "MIT-software",
+      "privacy_scan_status": "passed"
+    }
+  ]
+}

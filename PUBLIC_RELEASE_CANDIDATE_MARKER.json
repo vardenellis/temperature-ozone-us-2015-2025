@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "candidate_type": "ellis_varden_ozone_public_release",
+  "intended_repository_name": "temperature-ozone-us-2015-2025",
+  "history_preserved": false,
+  "repository_visibility": "public",
+  "repository_release_date": "2026-07-21",
+  "zenodo_published": false
+}

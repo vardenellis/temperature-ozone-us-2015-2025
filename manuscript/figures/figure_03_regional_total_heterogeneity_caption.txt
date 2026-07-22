@@ -1,0 +1,1 @@
+Figure 3. Regional heterogeneity in the primary total modeled ozone difference. Horizontal bars are empirical 95% region-stratified whole-site bootstrap percentile intervals. Blue points denote positive point estimates and vermilion points denote negative point estimates; interval position, rather than color alone, determines relation to zero.

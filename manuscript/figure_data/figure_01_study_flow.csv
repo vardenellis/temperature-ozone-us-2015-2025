@@ -1,0 +1,9 @@
+node_id,parent_id,label,sites,rows,branch
+panel,,Processed panel,1500,3549403,primary
+eligible,panel,Structurally eligible site-years,1417,3386419,primary
+balanced,eligible,Balanced primary before support,884,2641310,primary
+primary,balanced,Primary after support + leap-day exclusion,884,2396553,primary
+network,eligible,Broader-network sensitivity,1116,2835704,sensitivity
+s4a,primary,S4-A event-provenance filter,875,2364718,sensitivity
+s4b,primary,S4-B 2025-quality filter,884,2318654,sensitivity
+s4c,primary,S4-C combined filter,875,2287108,sensitivity

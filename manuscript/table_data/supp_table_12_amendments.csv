@@ -1,0 +1,7 @@
+date,source,stage,timing
+2026-07-16,private development amendment record (not included),continuous primary amendment,before the amended primary real continuous fit
+2026-07-16,preregistration/archive/2026-07-16_s1c_checksums.json,S1-C continuous-time 2020 handling,prospectively resolved before the S1-C real outcome fit
+2026-07-17,outputs/analysis/sensitivity_network_breadth/amendment_summary.json,network breadth,"after primary and 2020 results, before network-sensitivity outcome access"
+2026-07-17,outputs/analysis/sensitivity_temperature_spline_3df/amendment_summary.json,three-df TMAX spline,"after earlier-family results, before any three-df result"
+2026-07-17,outputs/analysis/sensitivity_event_2025_quality/amendment_summary.json,event and 2025 quality,"after earlier-family results and a fail-closed audit, before any Family 4 result"
+2026-07-18,outputs/analysis/sensitivity_outcome_residual_robustness/amendment_summary.json,descriptive elevated ozone,"after earlier-family results and binary preflight, before equal-site Family 5 estimates"

@@ -1,0 +1,54 @@
+{
+  "artifact_only": true,
+  "audit": "table_figure_consistency",
+  "checks": [
+    {
+      "details": "manuscript/table_data/table_inventory.json",
+      "name": "table_manifest_exists",
+      "passed": true
+    },
+    {
+      "details": "manuscript/figure_data/figure_inventory.json",
+      "name": "figure_manifest_exists",
+      "passed": true
+    },
+    {
+      "details": 17,
+      "name": "required_main_and_supplement_tables",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "table_assets_complete",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "table_rendering_row_counts_match_sources",
+      "passed": true
+    },
+    {
+      "details": 5,
+      "name": "required_figures",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "figure_assets_complete",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "figure_sources_linked_to_generation",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "new_bootstrap_run": false,
+  "new_data_accessed": false,
+  "new_model_run": false,
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "warnings": []
+}

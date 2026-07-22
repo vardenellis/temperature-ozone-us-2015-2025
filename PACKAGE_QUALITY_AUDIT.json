@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "scientific_content": {
+    "private_manuscript_sha256": "19f937a793b505ce160bbe7b290a58eaf8b53e3892994c251339230e873c1093",
+    "candidate_manuscript_sha256": "19f937a793b505ce160bbe7b290a58eaf8b53e3892994c251339230e873c1093",
+    "private_supplement_sha256": "dc0c76140720b53a792b89dff39747b9ee2482437f7118ac6d675e8aaaab10e6",
+    "candidate_supplement_sha256": "dc0c76140720b53a792b89dff39747b9ee2482437f7118ac6d675e8aaaab10e6",
+    "manuscript_numeric_tokens_identical": true,
+    "supplement_numeric_tokens_identical": true,
+    "reporting_freeze_numeric_fields_identical": true,
+    "citation_placeholders": 0,
+    "citation_traceability_placeholders": 0
+  },
+  "public_metadata": {
+    "author": true,
+    "affiliation": true,
+    "version": true,
+    "license": true,
+    "no_email": true,
+    "no_orcid": true,
+    "publication_doi": true,
+    "repository_url": true,
+    "no_software_doi": true,
+    "release_date": true
+  },
+  "abandoned_binary_fitter_exclusion": {
+    "status": "passed",
+    "forbidden_binary_fit_symbols": [
+      "smf.glm",
+      "sm.families.Binomial",
+      "def fit_primary_model("
+    ]
+  },
+  "pdf_semantics": {
+    "manuscript.pdf": {
+      "status": "passed",
+      "pages": 20,
+      "page_size": "612 x 792 pts (letter)",
+      "author_metadata": "Ellis Varden"
+    },
+    "supplement.pdf": {
+      "status": "passed",
+      "pages": 85,
+      "page_size": "612 x 792 pts (letter)",
+      "author_metadata": "Ellis Varden"
+    }
+  },
+  "pdf_metadata": {
+    "manuscript.pdf": {
+      "status": "passed",
+      "document_info": {
+        "author": true,
+        "title": true,
+        "subject": true,
+        "keywords": true,
+        "creator": true,
+        "doi": true
+      },
+      "xmp": {
+        "creator": true,
+        "title": true,
+        "identifier": true,
+        "prism_doi": true,
+        "creator_tool": true
+      },
+      "visible_doi": true
+    },
+    "supplement.pdf": {
+      "status": "passed",
+      "document_info": {
+        "author": true,
+        "title": true,
+        "subject": true,
+        "keywords": true,
+        "creator": true,
+        "doi": true
+      },
+      "xmp": {
+        "creator": true,
+        "title": true,
+        "identifier": true,
+        "prism_doi": true,
+        "creator_tool": true
+      },
+      "visible_doi": true
+    }
+  },
+  "pdf_repository_presentation": {
+    "status": "passed",
+    "git_attributes": "*.pdf binary",
+    "raw_download_links": {
+      "manuscript": "manuscript/manuscript.pdf?raw=1",
+      "supplement": "manuscript/supplement.pdf?raw=1"
+    },
+    "pdfs": {
+      "manuscript.pdf": {
+        "bytes": 1608062,
+        "sha256": "d05688f3bdf7fee9e25252a7516c50fa462a566361f5cc13c99e3a2f4eb694a5",
+        "pages": 20,
+        "header": "%PDF-",
+        "trailer": "%%EOF",
+        "git_lfs_pointer": false
+      },
+      "supplement.pdf": {
+        "bytes": 4262193,
+        "sha256": "593fa5d6bdff8db9955e03ab6a07ed7feb0e7adec78431054baf50a7135abd82",
+        "pages": 85,
+        "header": "%PDF-",
+        "trailer": "%%EOF",
+        "git_lfs_pointer": false
+      }
+    }
+  },
+  "table_figure_regeneration": {
+    "status": "passed",
+    "clean_temporary_directory": true,
+    "existing_locked_environment": true,
+    "fresh_dependency_installation": false,
+    "compared_file_count": 58,
+    "maximum_differences": 0,
+    "output_inventory_identical": true,
+    "full_analysis_ran": false,
+    "panel_accessed": false
+  },
+  "dependency_imports": {
+    "yaml": "6.0.3",
+    "matplotlib": "3.11.0"
+  },
+  "public_source_imports": {
+    "status": "passed",
+    "module_count": 41
+  },
+  "manuscript_asset_references": {
+    "status": "passed",
+    "reference_count": 5,
+    "missing": []
+  },
+  "full_acquisition_to_analysis_reproduction": "not_run_inputs_excluded",
+  "fresh_dependency_installation": "passed",
+  "publication_ready": true,
+  "release_blocker_count": 0,
+  "zenodo_publication_status": "unpublished_pending_separate_authorization",
+  "checksum_validation": {
+    "status": "passed",
+    "checked_file_count": 180
+  },
+  "manifest_validation": {
+    "status": "passed",
+    "checked_entry_count": 179
+  }
+}

@@ -1,0 +1,28 @@
+
+cff-version: 1.2.0
+message: "If you use this software reproducibility snapshot, please cite it using this metadata."
+title: "Temperature Distributions and Temperature-Standardized Ozone Change Across U.S. Monitoring Sites, 2015–2025"
+type: software
+authors:
+  - family-names: Varden
+    given-names: Ellis
+    affiliation: "Independent Researcher"
+version: 1.0.0
+date-released: 2026-07-21
+license: MIT
+repository-code: "https://github.com/vardenellis/temperature-ozone-us-2015-2025"
+preferred-citation:
+  type: article
+  title: "Temperature Distributions and Temperature-Standardized Ozone Change Across U.S. Monitoring Sites, 2015–2025"
+  authors:
+    - family-names: Varden
+      given-names: Ellis
+      affiliation: "Independent Researcher"
+  version: 1.0
+  doi: 10.5281/zenodo.21434897
+abstract: >-
+  Curated reproducibility snapshot for an associational study of temperature
+  distributions and temperature-standardized ozone change across represented
+  U.S. monitoring sites from 2015 through 2025. The accompanying manuscript is
+  non-peer-reviewed. The processed analytical panel and raw source files are
+  not included.

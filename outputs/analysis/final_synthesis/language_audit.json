@@ -1,0 +1,24 @@
+{
+  "artifact_only": true,
+  "audit": "language",
+  "checks": [
+    {
+      "details": [],
+      "name": "language_inputs_exist",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "no_unsupported_prohibited_language",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "new_bootstrap_run": false,
+  "new_data_accessed": false,
+  "new_model_run": false,
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "warnings": []
+}

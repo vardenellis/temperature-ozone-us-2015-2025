@@ -1,0 +1,319 @@
+@page {
+  size: Letter;
+  margin: 0.78in 0.76in 0.8in;
+
+  @bottom-center {
+    content: counter(page);
+    color: #4c5963;
+    font-family: "Liberation Sans", Arial, sans-serif;
+    font-size: 8.5pt;
+  }
+}
+
+html {
+  background: #fff;
+}
+
+body {
+  max-width: 8.5in;
+  margin: 0 auto;
+  color: #222;
+  font-family: "Liberation Sans", Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.43;
+}
+
+.no-break {
+  white-space: nowrap;
+}
+
+.publication-title-block {
+  margin: 0 0 1.55em;
+  padding: 0 0 1em;
+  border-bottom: 1pt solid #9aabb9;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.publication-title-block h1 {
+  margin: 0 0 0.7em;
+  color: #17324d;
+  font-size: 21pt;
+  line-height: 1.18;
+}
+
+.supplement-title-block h1 {
+  font-size: 18pt;
+}
+
+.publication-title-block p {
+  margin: 0.12em 0;
+}
+
+.publication-author {
+  font-size: 12pt;
+  font-weight: 600;
+}
+
+.publication-affiliation,
+.publication-doi,
+.publication-status {
+  font-size: 10pt;
+}
+
+.publication-doi {
+  margin-top: 0.7em !important;
+}
+
+.publication-status {
+  color: #4c5963;
+  font-size: 9.2pt !important;
+  font-style: italic;
+}
+
+.structured-abstract {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.structured-abstract h2 {
+  margin-top: 0;
+}
+
+.structured-abstract h3 {
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+}
+
+.references-continuation {
+  margin-top: 0;
+  break-before: page;
+  page-break-before: always;
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+
+h1,
+h2,
+h3 {
+  color: #17324d;
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 21pt;
+}
+
+h2 {
+  margin-top: 1.35em;
+  margin-bottom: 0.55em;
+  font-size: 15pt;
+}
+
+h3 {
+  margin-top: 1.1em;
+  margin-bottom: 0.35em;
+  font-size: 11.5pt;
+}
+
+h2[id^="table-"],
+h2[id^="supplementary-table-"] {
+  margin-top: 1.25em;
+  margin-bottom: 0.35em;
+  font-size: 11pt;
+  line-height: 1.25;
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+
+p,
+li {
+  orphans: 4;
+  widows: 4;
+}
+
+.keep-paragraph {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.list-introduction {
+  margin-bottom: 0.25em;
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+
+.list-introduction + ol,
+.list-introduction + ul {
+  margin-top: 0.25em;
+}
+
+.declaration-section {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.declaration-section + h2 {
+  break-before: page;
+  page-break-before: always;
+}
+
+table {
+  width: 100%;
+  margin: 0 0 0.45em;
+  border-collapse: collapse;
+  font-size: 7.7pt;
+  line-height: 1.23;
+  break-inside: auto;
+  page-break-inside: auto;
+}
+
+h2 + table {
+  break-before: avoid-page;
+  page-break-before: avoid;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tfoot {
+  display: table-footer-group;
+}
+
+tr {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+th,
+td {
+  padding: 3pt 3.5pt;
+  border-bottom: 0.5pt solid #b8c1c8;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+th {
+  background: #eef3f7;
+  font-weight: 600;
+}
+
+table + p,
+table + p + p {
+  margin-top: 0.3em;
+  font-size: 8.2pt;
+  line-height: 1.3;
+  break-before: avoid-page;
+  page-break-before: avoid;
+}
+
+.table-continuation {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.table-initial {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.table-initial h2 {
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+
+.table-continuation-table caption {
+  caption-side: top;
+  text-align: left;
+  margin: 0 0 0.35em;
+  color: #17324d;
+  font-weight: 700;
+  font-size: 10.5pt;
+  line-height: 1.25;
+  break-after: auto;
+  page-break-after: auto;
+}
+
+.table-continuation-table {
+  table-layout: fixed;
+  break-before: auto;
+  page-break-before: auto;
+}
+
+.table-continuation-table th:nth-child(1),
+.table-continuation-table td:nth-child(1) {
+  width: 18%;
+}
+
+.table-continuation-table th:nth-child(2),
+.table-continuation-table td:nth-child(2) {
+  width: 22%;
+}
+
+.table-continuation-table th:nth-child(3),
+.table-continuation-table td:nth-child(3) {
+  width: 60%;
+}
+
+.single-page-table {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.single-page-table h2 {
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+
+.publication-figure[data-figure-number="2"] {
+  break-before: page;
+  page-break-before: always;
+}
+
+.publication-figure {
+  display: block;
+  width: 100%;
+  margin: 1em 0 1.5em;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+.publication-figure img {
+  display: block;
+  max-width: 100%;
+  max-height: 7.05in;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.publication-figure figcaption {
+  margin-top: 0.55em;
+  color: #222;
+  font-size: 8.7pt;
+  line-height: 1.32;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+code {
+  overflow-wrap: anywhere;
+}
+
+blockquote {
+  padding-left: 10px;
+  border-left: 3px solid #8aa6bf;
+  color: #444;
+}
+
+@media print {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

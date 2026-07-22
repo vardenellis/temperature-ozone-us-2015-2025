@@ -1,0 +1,45 @@
+{
+  "author_decision": "Use the exact non-adjudication status; report committed evidence descriptively without a post-result regional grouping or categorical hypothesis label.",
+  "compatibility": {
+    "categorical_adjudication_performed": false,
+    "evidence_artifact": "outputs/analysis/final_synthesis/hypothesis_evidence.json",
+    "hypothesis_count": 3,
+    "hypothesis_id_field": "hypothesis_id",
+    "hypothesis_status_field": "final_status",
+    "hypothesis_wording_field": "exact_original_wording",
+    "post_result_region_grouping_created": false,
+    "required_status_value": "not formally adjudicable under the frozen plan"
+  },
+  "formal_difference_inference": false,
+  "governing_hypotheses_source": "preregistration/research_plan.md:66-81",
+  "hypotheses": [
+    {
+      "descriptive_evidence_pointer": "outputs/analysis/final_synthesis/hypothesis_evidence.json",
+      "exact_original_wording": "In eastern NOAA climate regions, later-period temperature conditions may tend to increase expected MDA8 ozone, while the temperature-standardized ozone response at comparable temperatures will be lower.",
+      "final_status": "not formally adjudicable under the frozen plan",
+      "hypothesis_id": "H1",
+      "status_reason": "The author selected the non-adjudication option because the frozen plan contains no operational categorical decision rule."
+    },
+    {
+      "descriptive_evidence_pointer": "outputs/analysis/final_synthesis/hypothesis_evidence.json",
+      "exact_original_wording": "In much of the eastern United States, the negative temperature-standardized response component is expected to outweigh any positive temperature-distribution component, producing lower expected MDA8 ozone overall.",
+      "final_status": "not formally adjudicable under the frozen plan",
+      "hypothesis_id": "H2",
+      "status_reason": "The author selected the non-adjudication option because the frozen plan contains no operational categorical decision rule."
+    },
+    {
+      "descriptive_evidence_pointer": "outputs/analysis/final_synthesis/hypothesis_evidence.json",
+      "exact_original_wording": "Western regions are expected to show weaker, more heterogeneous, or potentially opposing response changes because background ozone, wildfire smoke, transport, terrain, and regional emissions sources may play larger roles.",
+      "final_status": "not formally adjudicable under the frozen plan",
+      "hypothesis_id": "H3",
+      "status_reason": "The author selected the non-adjudication option because the frozen plan contains no operational categorical decision rule."
+    }
+  ],
+  "new_bootstrap_run": false,
+  "new_model_run": false,
+  "new_outcome_access": false,
+  "only_frozen_reporting_instruction": "These hypotheses are directional and associational. Null and contradictory findings must be reported.",
+  "schema_version": 1,
+  "stage": "final_hypothesis_nonadjudication",
+  "status": "not formally adjudicable under the frozen plan"
+}

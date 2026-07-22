@@ -1,0 +1,58 @@
+{
+  "artifact_only": true,
+  "audit": "numerical_consistency",
+  "checks": [
+    {
+      "details": "manuscript/number_traceability.csv",
+      "name": "number_traceability_exists",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "required_headers",
+      "passed": true
+    },
+    {
+      "details": 1986,
+      "name": "traceability_rows_present",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "all_traceability_fields_populated",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "all_rows_verified",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "all_sources_exist",
+      "passed": true
+    },
+    {
+      "details": [
+        "Table 4/Figure 5/supplement",
+        "manuscript and supplement token BINARY_ALL_ZERO_SITE_COUNT",
+        "manuscript and supplement token LAG1_MEDIAN_DISPLAY",
+        "manuscript and supplement token PRIMARY_EARLY_ROW_COUNT",
+        "manuscript and supplement token PRIMARY_LATER_ROW_COUNT",
+        "manuscript and supplement token PRIMARY_ROW_COUNT",
+        "manuscript and supplement token PRIMARY_SITE_COUNT",
+        "tables/figures/supplement"
+      ],
+      "name": "manuscript_table_figure_scopes_covered",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "new_bootstrap_run": false,
+  "new_data_accessed": false,
+  "new_model_run": false,
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "warnings": []
+}

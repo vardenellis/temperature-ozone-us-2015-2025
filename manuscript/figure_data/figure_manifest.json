@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "figure_count": 5,
+  "source_reporting_freeze": "outputs/analysis/final_synthesis/reporting_freeze.json",
+  "entries": [
+    {
+      "figure_id": "figure_01_study_flow",
+      "source_csv": "manuscript/figure_data/figure_01_study_flow.csv",
+      "generator_script": "manuscript/figures/generate_figure_01.py",
+      "vector_svg": "manuscript/figures/figure_01_study_flow.svg",
+      "high_resolution_png": "manuscript/figures/figure_01_study_flow.png",
+      "caption_text": "manuscript/figures/figure_01_study_flow_caption.txt",
+      "row_count": 8,
+      "numeric_columns": [
+        "sites",
+        "rows"
+      ],
+      "units": "site and site-day counts",
+      "rounding": "integer counts",
+      "reporting_freeze_source_mapping": "reporting_freeze.study_flow",
+      "png_dpi": 400
+    },
+    {
+      "figure_id": "figure_02_primary_regional_decomposition",
+      "source_csv": "manuscript/figure_data/figure_02_primary_regional_decomposition.csv",
+      "generator_script": "manuscript/figures/generate_figure_02.py",
+      "vector_svg": "manuscript/figures/figure_02_primary_regional_decomposition.svg",
+      "high_resolution_png": "manuscript/figures/figure_02_primary_regional_decomposition.png",
+      "caption_text": "manuscript/figures/figure_02_primary_regional_decomposition_caption.txt",
+      "row_count": 30,
+      "numeric_columns": [
+        "point_estimate",
+        "percentile_2_5",
+        "percentile_97_5",
+        "site_count"
+      ],
+      "units": "ppb",
+      "rounding": "full precision CSV; axis labels use plotting defaults",
+      "reporting_freeze_source_mapping": "sensitivity_synthesis.csv specification_id=primary; three component/total quantities",
+      "png_dpi": 400
+    },
+    {
+      "figure_id": "figure_03_regional_total_heterogeneity",
+      "source_csv": "manuscript/figure_data/figure_04_regional_total_heterogeneity.csv",
+      "generator_script": "manuscript/figures/generate_figure_03.py",
+      "vector_svg": "manuscript/figures/figure_03_regional_total_heterogeneity.svg",
+      "high_resolution_png": "manuscript/figures/figure_03_regional_total_heterogeneity.png",
+      "caption_text": "manuscript/figures/figure_03_regional_total_heterogeneity_caption.txt",
+      "row_count": 9,
+      "numeric_columns": [
+        "point_estimate",
+        "percentile_2_5",
+        "percentile_97_5",
+        "site_count"
+      ],
+      "units": "ppb",
+      "rounding": "full precision CSV; axis labels use plotting defaults",
+      "reporting_freeze_source_mapping": "sensitivity_synthesis.csv primary regional total_change",
+      "png_dpi": 400
+    },
+    {
+      "figure_id": "figure_04_sensitivity_comparison",
+      "source_csv": "manuscript/figure_data/figure_03_sensitivity_comparison.csv",
+      "generator_script": "manuscript/figures/generate_figure_04.py",
+      "vector_svg": "manuscript/figures/figure_04_sensitivity_comparison.svg",
+      "high_resolution_png": "manuscript/figures/figure_04_sensitivity_comparison.png",
+      "caption_text": "manuscript/figures/figure_04_sensitivity_comparison_caption.txt",
+      "row_count": 27,
+      "numeric_columns": [
+        "point_estimate",
+        "percentile_2_5",
+        "percentile_97_5",
+        "site_count",
+        "fit_rows"
+      ],
+      "units": "ppb",
+      "rounding": "full precision CSV; axis labels use plotting defaults",
+      "reporting_freeze_source_mapping": "sensitivity_synthesis.csv national continuous records",
+      "png_dpi": 400,
+      "display_label_overrides": {
+        "s1c_continuous_time": "S1-C (continuous-time specification)",
+        "temperature_spline_3df": "3-df TMAX spline"
+      },
+      "alt_text": "National continuous sensitivity comparison in three panels; S1-C is labeled as a continuous-time specification, and the compact label for the three-degree-of-freedom temperature spline is 3-df TMAX spline."
+    },
+    {
+      "figure_id": "figure_05_continuous_vs_threshold",
+      "source_csv": "manuscript/figure_data/figure_05_continuous_vs_threshold.csv",
+      "generator_script": "manuscript/figures/generate_figure_05.py",
+      "vector_svg": "manuscript/figures/figure_05_continuous_vs_threshold.svg",
+      "high_resolution_png": "manuscript/figures/figure_05_continuous_vs_threshold.png",
+      "caption_text": "manuscript/figures/figure_05_continuous_vs_threshold_caption.txt",
+      "row_count": 20,
+      "numeric_columns": [
+        "point_estimate",
+        "percentile_2_5",
+        "percentile_97_5"
+      ],
+      "units": "panel A ppb; panel B percentage points",
+      "rounding": "full precision CSV; separate axis formatting",
+      "reporting_freeze_source_mapping": "sensitivity_synthesis.csv primary total plus reporting_freeze.descriptive_threshold_results.records",
+      "png_dpi": 400
+    }
+  ]
+}

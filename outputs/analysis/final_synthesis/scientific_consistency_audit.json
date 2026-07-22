@@ -1,0 +1,100 @@
+{
+  "artifact_only": true,
+  "audit": "scientific_consistency",
+  "checks": [
+    {
+      "details": [],
+      "name": "required_inputs_exist",
+      "passed": true
+    },
+    {
+      "details": {
+        "early_rows": 1192343,
+        "early_years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "excluded_year": 2020,
+        "february_29": "excluded",
+        "later_rows": 1204210,
+        "later_years": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "panel_sha256": "3db6975fade1fa85c1dfa4bd9019acad085be0b5a27727ecbc1b432fae7296d0",
+        "population_sha256": "1c7dcacabf6e07f72cfd03c2a927dfe46c0d85c3f214948d3116fe454807b7e5",
+        "primary_role": "primary_continuous_full_balanced",
+        "regions": 9,
+        "rows": 2396553,
+        "sites": 884,
+        "weighting": "equal site"
+      },
+      "name": "immutable_population_identity",
+      "passed": true
+    },
+    {
+      "details": {
+        "amendments": 6,
+        "continuous_records": 630,
+        "primary_scopes": 10,
+        "threshold_scopes": 10
+      },
+      "name": "reporting_freeze_complete",
+      "passed": true
+    },
+    {
+      "details": "not formally adjudicable under the frozen plan",
+      "name": "exact_nonadjudication_status",
+      "passed": true
+    },
+    {
+      "details": {
+        "artifact_only": true,
+        "new_bootstrap_run": false,
+        "new_data_accessed": false,
+        "new_model_fit": false
+      },
+      "name": "no_new_analysis_assertions",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "manuscript_sections_complete",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "supplement_sections_complete",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "no_unresolved_template_tokens",
+      "passed": true
+    },
+    {
+      "details": {},
+      "name": "mandatory_disclosures_present",
+      "passed": true
+    },
+    {
+      "details": "Ellis Varden, Independent Researcher",
+      "name": "author_identity_frozen",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "new_bootstrap_run": false,
+  "new_data_accessed": false,
+  "new_model_run": false,
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "warnings": []
+}

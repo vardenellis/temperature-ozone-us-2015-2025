@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "unresolved_finding_count": 0,
+  "allowed_public_identity": [
+    "Ellis Varden",
+    "Independent Researcher",
+    "vardenellis"
+  ],
+  "private_email_present": false,
+  "noreply_address_present_in_tracked_files": false,
+  "absolute_personal_paths_present": false,
+  "private_remote_reference_present": false,
+  "internal_handoff_reference_present": false,
+  "git_metadata_included_in_content_scan": false,
+  "content_scan_excludes_git_metadata_by_design": true,
+  "findings": [],
+  "pdf_metadata": {
+    "manuscript/manuscript.pdf": {
+      "Title": "Temperature Distributions and Temperature-Standardized Ozone Change Across U.S. Monitoring Sites, 2015\u20132025",
+      "Subject": "Non-peer-reviewed research manuscript deposited on Zenodo",
+      "Keywords": "ozone; temperature; monitoring sites; decomposition; United States",
+      "Author": "Ellis Varden",
+      "Creator": "Pandoc/Chromium publication renderer",
+      "Producer": "Skia/PDF m150",
+      "CreationDate": "Mon Jul 20 20:00:00 2026 EDT",
+      "ModDate": "Mon Jul 20 20:00:00 2026 EDT",
+      "Custom Metadata": "yes",
+      "Metadata Stream": "yes",
+      "Tagged": "yes",
+      "UserProperties": "no",
+      "Suspects": "no",
+      "Form": "none",
+      "JavaScript": "no",
+      "Pages": "20",
+      "Encrypted": "no",
+      "Page size": "612 x 792 pts (letter)",
+      "Page rot": "0",
+      "File size": "1608062 bytes",
+      "Optimized": "no",
+      "PDF version": "1.4"
+    },
+    "manuscript/supplement.pdf": {
+      "Title": "Supplement to: Temperature Distributions and Temperature-Standardized Ozone Change Across U.S. Monitoring Sites, 2015\u20132025",
+      "Subject": "Supplementary material for a non-peer-reviewed research manuscript deposited on Zenodo",
+      "Keywords": "ozone; temperature; monitoring sites; decomposition; supplementary material",
+      "Author": "Ellis Varden",
+      "Creator": "Pandoc/Chromium publication renderer",
+      "Producer": "Skia/PDF m150",
+      "CreationDate": "Mon Jul 20 20:00:00 2026 EDT",
+      "ModDate": "Mon Jul 20 20:00:00 2026 EDT",
+      "Custom Metadata": "yes",
+      "Metadata Stream": "yes",
+      "Tagged": "yes",
+      "UserProperties": "no",
+      "Suspects": "no",
+      "Form": "none",
+      "JavaScript": "no",
+      "Pages": "85",
+      "Encrypted": "no",
+      "Page size": "612 x 792 pts (letter)",
+      "Page rot": "0",
+      "File size": "4262193 bytes",
+      "Optimized": "no",
+      "PDF version": "1.4"
+    }
+  },
+  "image_metadata": {
+    "manuscript/figures/figure_01_study_flow.png": {
+      "format": "PNG",
+      "size": [
+        4730,
+        1989
+      ],
+      "info": {
+        "Software": "Matplotlib 3.11.0 frozen final-synthesis renderer",
+        "dpi": "(399.9992, 399.9992)"
+      }
+    },
+    "manuscript/figures/figure_02_primary_regional_decomposition.png": {
+      "format": "PNG",
+      "size": [
+        3551,
+        2414
+      ],
+      "info": {
+        "Software": "Matplotlib 3.11.0 frozen final-synthesis renderer",
+        "dpi": "(399.9992, 399.9992)"
+      }
+    },
+    "manuscript/figures/figure_03_regional_total_heterogeneity.png": {
+      "format": "PNG",
+      "size": [
+        3303,
+        2076
+      ],
+      "info": {
+        "Software": "Matplotlib 3.11.0 frozen final-synthesis renderer",
+        "dpi": "(399.9992, 399.9992)"
+      }
+    },
+    "manuscript/figures/figure_04_sensitivity_comparison.png": {
+      "format": "PNG",
+      "size": [
+        5732,
+        2503
+      ],
+      "info": {
+        "Software": "Matplotlib 3.11.0 frozen final-synthesis renderer",
+        "dpi": "(399.9992, 399.9992)"
+      }
+    },
+    "manuscript/figures/figure_05_continuous_vs_threshold.png": {
+      "format": "PNG",
+      "size": [
+        4698,
+        2503
+      ],
+      "info": {
+        "Software": "Matplotlib 3.11.0 frozen final-synthesis renderer",
+        "dpi": "(399.9992, 399.9992)"
+      }
+    }
+  }
+}

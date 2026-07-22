@@ -1,0 +1,245 @@
+epa:
+  parameter_code: "44201"
+  parameter_name: "Ozone"
+  hourly_sample_duration_label: "1 HOUR"
+  sample_duration_code: "W"
+  sample_duration_label: "8-HR RUN AVG BEGIN HOUR"
+  pollutant_standard: "Ozone 8-hour 2015"
+  daily_statistic: "1st Max Value"
+  primary_outcome_source: "hourly_appendix_u_site_record"
+  daily_summary_role: "validation_reference"
+  site_collocation_rule: "appendix_u_conservative_unambiguous_single_poc_hour"
+  ambiguous_primary_policy: "exclude_ambiguous_site_hour"
+  primary_designation_history_status: "not_available_in_acquired_snapshot"
+  minimum_valid_8hour_windows: 13
+  source_unit: "Parts per million"
+  analysis_unit: "parts per billion"
+  conversion_factor_ppm_to_ppb: 1000.0
+  event_record_policy: "include_observed_events"
+
+noaa:
+  dataset: "GHCN-Daily"
+  element: "TMAX"
+  source_unit: "tenths of degrees C"
+  analysis_unit: "degrees C"
+  conversion_divisor: 10.0
+  reject_nonblank_quality_flag: true
+  require_nonblank_source_flag: true
+  date_alignment: "same_reported_calendar_date"
+  retain_observation_time: true
+
+matching:
+  method: "nearest_eligible_station"
+  threshold_status: "resolved_outcome_blind"
+  maximum_distance_km: 50.0
+  minimum_overlap_fraction: 0.90
+  diagnostic_distance_thresholds_km: [25.0, 50.0, 75.0]
+  diagnostic_overlap_thresholds: [0.80, 0.90, 0.95]
+  elevation_difference_review_m: 300.0
+  tie_breaker: "distance_then_station_id"
+
+analysis:
+  primary_unit: "site_day"
+  region_definition: "NOAA_nine_climate_regions"
+  climate_region_crosswalk_source: "NOAA Climate at a Glance regional catalog; frozen 2026-07-15"
+  scientific_strategy_status: "amended_continuous_primary_2026-07-16"
+  primary_question: "two_period_continuous_mda8_decomposition"
+  early_years: [2015, 2016, 2017, 2018, 2019]
+  later_years: [2021, 2022, 2023, 2024, 2025]
+  excluded_primary_year: 2020
+  primary_population: "balanced_sites_equal_weight"
+  primary_population_role: "primary_continuous_full_balanced"
+  descriptive_binary_population_role: "descriptive_binary_full_balanced"
+  sensitivity_2020_s1c_population_role: "sensitivity_2020_continuous_time"
+  sensitivity_network_breadth_population_role: "sensitivity_network_breadth_one_qualifying_year_each_period"
+  sensitivity_temperature_spline_3df_population_role: "sensitivity_temperature_spline_3df_primary_population"
+  sensitivity_event_clean_population_role: "sensitivity_event_clean_retained_only"
+  sensitivity_2025_quality_population_role: "sensitivity_2025_certified_complete"
+  sensitivity_event_clean_2025_quality_population_role: "sensitivity_event_clean_and_2025_certified_complete"
+  sensitivity_network_breadth_minimum_qualifying_years_early: 1
+  sensitivity_network_breadth_minimum_qualifying_years_later: 1
+  sensitivity_network_breadth_common_site_set: true
+  sensitivity_network_breadth_qualifying_site_year_rows_only: true
+  sensitivity_network_breadth_eligibility_before_common_support: true
+  sensitivity_2020_s1c_year_center: 2020
+  sensitivity_2020_s1c_interruption_year: 2020
+  sensitivity_2020_s1c_endpoint_years: [2015, 2025]
+  sensitivity_2020_s1c_time_function: "linear"
+  sensitivity_2020_s1c_support_source: "original_primary_2015_2019_vs_2021_2025"
+  sensitivity_2020_s1c_basis_source: "original_primary_pooled_support_trimmed"
+  primary_outcome: "ozone_mda8_ppb"
+  descriptive_binary_outcome: "elevated_ozone"
+  family5_definition_status: "frozen_descriptive_site_period_proportion_2026_07_18"
+  family5_primary_estimand: "equal_site_mean_site_period_elevated_day_proportion"
+  family5_periods: ["early_2015_2019", "later_2021_2025"]
+  family5_scopes: ["national", "NOAA_nine_climate_regions"]
+  family5_site_period_denominator: "valid_descriptive_site_days"
+  family5_zero_valid_day_denominator_policy: "fatal"
+  family5_zero_elevated_numerator_policy: "retain_as_zero"
+  family5_region_aggregation: "arithmetic_mean_over_sites"
+  family5_national_aggregation: "arithmetic_mean_over_all_884_sites"
+  family5_change_metric: "100_times_later_minus_early_percentage_points"
+  family5_secondary_summary: "row_weighted_pooled_counts_and_proportions_plus_site_patterns"
+  family5_years_role: "structural_metadata_only"
+  family5_bootstrap_draw_source: "exact_primary_1000_site_manifests"
+  family5_bootstrap_percentile_method: "numpy_linear"
+  primary_outcome_unit: "parts per billion"
+  minimum_qualifying_site_years_per_period: 4
+  minimum_site_year_coverage: 0.75
+  temperature_spline_df: 4
+  temperature_sensitivity_spline_df: 3
+  temperature_sensitivity_definition_status: "frozen_tertile_knots_2026_07_17"
+  temperature_sensitivity_internal_knot_probability_fractions: ["1/3", "2/3"]
+  temperature_sensitivity_internal_knot_probabilities: [0.3333333333333333, 0.6666666666666666]
+  temperature_sensitivity_internal_knot_count: 2
+  temperature_sensitivity_basis_columns: 3
+  temperature_sensitivity_quantile_method: "linear"
+  temperature_sensitivity_basis_source: "original_primary_pooled_support_trimmed"
+  sensitivity_event_2025_quality_definition_status: "frozen_three_specifications_2026_07_17"
+  sensitivity_event_accepted_statuses: ["retained"]
+  sensitivity_event_rejected_statuses: ["identified", "unknown"]
+  sensitivity_event_filter_unit: "site_day_after_primary_eligibility"
+  sensitivity_2025_required_completeness: "Y"
+  sensitivity_2025_accepted_certification: ["Certified", "Certification not required"]
+  sensitivity_2025_filter_unit: "complete_site_year_after_primary_eligibility"
+  sensitivity_event_2025_recalculate_primary_eligibility: false
+  sensitivity_event_2025_require_common_site_set: true
+  sensitivity_event_2025_support_source: "original_primary_234_bins"
+  sensitivity_event_2025_basis_source: "original_primary_q25_q50_q75"
+  sensitivity_event_2025_bootstrap_support_basis: "fixed_original_primary_no_rebuild"
+  sensitivity_event_2025_bootstrap_s4ac_pair_code: 401
+  sensitivity_event_2025_bootstrap_s4b_pairing: "validated_primary_draw_manifests"
+  day_of_year_cyclic_spline_df: 6
+  leap_day_primary_policy: "omit_from_fit_and_standardization"
+  model_class: "gaussian_identity_site_fixed_effects"
+  standardization: "empirical_equal_site_calendar_standardized_g_computation"
+  common_support_bin_width_c: 2.0
+  common_support_minimum_days_per_period_bin: 30
+  common_support_minimum_sites_per_region: 20
+  common_support_minimum_retained_fraction_per_period: 0.80
+  decomposition: "symmetric_two_period"
+  bootstrap_unit: "site_id"
+  bootstrap_stratification: "climate_region"
+  bootstrap_successful_replicates: 1000
+  bootstrap_seed: 20260715
+  bootstrap_max_attempts: 1250
+  bootstrap_retry_limit_per_draw: 1
+  bootstrap_interval_lower_quantile: 0.025
+  bootstrap_interval_upper_quantile: 0.975
+  bootstrap_max_failure_fraction: 0.05
+  exceedance_threshold_ppb: 70.0
+  exceedance_operator: ">"
+  confirmatory_sensitivity_limit: 5
+  sensitivity_families:
+    - "2020_handling"
+    - "network"
+    - "temperature_functional_form"
+    - "event_and_2025_data_quality"
+    - "outcome_robustness"
+  noaa_climate_region_by_state_fips:
+    "01": "Southeast"
+    "04": "Southwest"
+    "05": "South"
+    "06": "West"
+    "08": "Southwest"
+    "09": "Northeast"
+    "10": "Northeast"
+    "11": "Northeast"
+    "12": "Southeast"
+    "13": "Southeast"
+    "16": "Northwest"
+    "17": "Ohio Valley"
+    "18": "Ohio Valley"
+    "19": "Upper Midwest"
+    "20": "South"
+    "21": "Ohio Valley"
+    "22": "South"
+    "23": "Northeast"
+    "24": "Northeast"
+    "25": "Northeast"
+    "26": "Upper Midwest"
+    "27": "Upper Midwest"
+    "28": "South"
+    "29": "Ohio Valley"
+    "30": "Northern Rockies and Plains"
+    "31": "Northern Rockies and Plains"
+    "32": "West"
+    "33": "Northeast"
+    "34": "Northeast"
+    "35": "Southwest"
+    "36": "Northeast"
+    "37": "Southeast"
+    "38": "Northern Rockies and Plains"
+    "39": "Ohio Valley"
+    "40": "South"
+    "41": "Northwest"
+    "42": "Northeast"
+    "44": "Northeast"
+    "45": "Southeast"
+    "46": "Northern Rockies and Plains"
+    "47": "Ohio Valley"
+    "48": "South"
+    "49": "Southwest"
+    "50": "Northeast"
+    "51": "Southeast"
+    "53": "Northwest"
+    "54": "Ohio Valley"
+    "55": "Upper Midwest"
+    "56": "Northern Rockies and Plains"
+
+phase_gates:
+  preregistration_frozen: true
+  full_acquisition_authorized: true
+  panel_construction_authorized: true
+  substantive_analysis_authorized: false
+  authorization_date: 2026-07-16
+  real_primary_continuous_fit_authorized: true
+  real_point_decomposition_authorized: true
+  real_bootstrap_authorized: true
+  sensitivity_2020_point_estimates_authorized: true
+  sensitivity_2020_s1c_synthetic_validation_authorized: true
+  sensitivity_2020_s1c_real_fit_authorized: true
+  sensitivity_2020_s1c_point_decomposition_authorized: true
+  sensitivity_2020_s1c_bootstrap_authorized: true
+  sensitivity_2020_family_bootstrap_authorized: true
+  sensitivity_network_breadth_point_estimates_authorized: true
+  sensitivity_network_breadth_point_estimates_authorization_date: 2026-07-17
+  sensitivity_network_breadth_bootstrap_authorized: true
+  sensitivity_network_breadth_bootstrap_authorization_date: 2026-07-17
+  sensitivity_temperature_spline_3df_synthetic_validation_authorized: true
+  sensitivity_temperature_spline_3df_synthetic_validation_authorization_date: 2026-07-17
+  sensitivity_temperature_spline_3df_point_estimates_authorized: true
+  sensitivity_temperature_spline_3df_point_estimates_authorization_date: 2026-07-17
+  sensitivity_temperature_spline_3df_bootstrap_authorized: true
+  sensitivity_temperature_spline_3df_bootstrap_authorization_date: 2026-07-17
+  sensitivity_event_2025_quality_definition_audit_authorized: true
+  sensitivity_event_2025_quality_definition_audit_authorization_date: 2026-07-17
+  sensitivity_event_2025_quality_synthetic_validation_authorized: true
+  sensitivity_event_2025_quality_synthetic_validation_authorization_date: 2026-07-17
+  sensitivity_event_2025_quality_point_estimates_authorized: true
+  sensitivity_event_2025_quality_point_estimates_authorization_date: 2026-07-17
+  sensitivity_event_clean_point_estimates_authorized: true
+  sensitivity_event_clean_point_estimates_authorization_date: 2026-07-17
+  sensitivity_2025_quality_point_estimates_authorized: true
+  sensitivity_2025_quality_point_estimates_authorization_date: 2026-07-17
+  sensitivity_event_clean_2025_quality_point_estimates_authorized: true
+  sensitivity_event_clean_2025_quality_point_estimates_authorization_date: 2026-07-17
+  sensitivity_event_2025_quality_bootstrap_authorized: true
+  sensitivity_event_2025_quality_bootstrap_authorization_date: 2026-07-18
+  sensitivity_outcome_residual_definition_audit_authorized: true
+  sensitivity_outcome_residual_definition_audit_authorization_date: 2026-07-18
+  sensitivity_outcome_residual_synthetic_validation_authorized: true
+  sensitivity_outcome_residual_synthetic_validation_authorization_date: 2026-07-18
+  sensitivity_outcome_residual_descriptive_analysis_authorized: true
+  sensitivity_outcome_residual_descriptive_analysis_authorization_date: 2026-07-18
+  sensitivity_outcome_residual_bootstrap_authorized: true
+  sensitivity_outcome_residual_bootstrap_authorization_date: 2026-07-18
+  sensitivity_outcome_residual_neutral_comparison_authorized: true
+  sensitivity_outcome_residual_neutral_comparison_authorization_date: 2026-07-18
+  final_synthesis_and_manuscript_authorized: true
+  final_synthesis_and_manuscript_authorization_date: 2026-07-18
+  final_hypothesis_reporting_status: "not formally adjudicable under the frozen plan"
+  sensitivity_analyses_authorized: false
+  exploratory_analyses_authorized: false
+  manuscript_results_authorized: false
+  real_binary_logistic_authorized: false

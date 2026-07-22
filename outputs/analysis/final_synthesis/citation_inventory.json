@@ -1,0 +1,552 @@
+{
+  "author_identity": {
+    "additional_authors_or_collaborators_documented": false,
+    "affiliation": "Independent Researcher",
+    "name": "Ellis Varden",
+    "verified_in": [
+      "CITATION.cff",
+      "config/project.yml",
+      "README.md",
+      "AGENTS.md",
+      "manuscript/paper.qmd",
+      "manuscript/_quarto.yml",
+      "preregistration/research_plan.md",
+      "preregistration/statistical_analysis_plan.md"
+    ]
+  },
+  "bibliography": {
+    "all_entries_pass_basic_required_field_check": true,
+    "entries": [
+      {
+        "doi": "10.1029/2009GL037308",
+        "key": "bloomer2009",
+        "title": "Observed relationships of ozone air pollution with temperature and emissions",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ],
+        "year": "2009"
+      },
+      {
+        "doi": "10.1016/j.atmosenv.2011.11.021",
+        "key": "rasmussen2012",
+        "title": "Surface ozone-temperature relationships in the eastern US: A monthly climatology for evaluating chemistry-climate models",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "pages",
+          "doi"
+        ],
+        "year": "2012"
+      },
+      {
+        "doi": "10.1021/cr5006815",
+        "key": "pusede2015",
+        "title": "Temperature and Recent Trends in the Chemistry of Continental Surface Ozone",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ],
+        "year": "2015"
+      },
+      {
+        "doi": "10.3390/atmos12101235",
+        "key": "ninneman2021",
+        "title": "Observed Relationship between Ozone and Temperature for Urban Nonattainment Areas in the United States",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ],
+        "year": "2021"
+      },
+      {
+        "doi": "10.1080/10962247.2021.1970048",
+        "key": "nolte2021",
+        "title": "Regional Temperature-Ozone Relationships Across the U.S. Under Multiple Climate and Emissions Scenarios",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ],
+        "year": "2021"
+      },
+      {
+        "doi": "10.5194/acp-25-2725-2025",
+        "key": "li2025",
+        "title": "Anthropogenic emission controls reduce summertime ozone--temperature sensitivity in the United States",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "pages",
+          "doi"
+        ],
+        "year": "2025"
+      },
+      {
+        "doi": "10.5194/acp-25-5101-2025",
+        "key": "chang2025",
+        "title": "Surface ozone trend variability across the United States and the impact of heat waves (1990--2023)",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "pages",
+          "doi"
+        ],
+        "year": "2025"
+      },
+      {
+        "doi": "10.1038/s44407-025-00023-8",
+        "key": "bao2025",
+        "title": "Comparative analysis of the impact of rising temperatures on ozone levels in China and the United States",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "pages",
+          "doi"
+        ],
+        "year": "2025"
+      },
+      {
+        "doi": "10.1175/JTECH-D-11-00103.1",
+        "key": "menne2012overview",
+        "title": "An Overview of the Global Historical Climatology Network-Daily Database",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ],
+        "year": "2012"
+      },
+      {
+        "doi": "10.7289/V5D21VHZ",
+        "key": "menne2012dataset",
+        "title": "Global Historical Climatology Network - Daily (GHCN-Daily), Version 3",
+        "type": "dataset",
+        "verified_fields": [
+          "author",
+          "title",
+          "publisher",
+          "year",
+          "doi",
+          "note"
+        ],
+        "year": "2012"
+      },
+      {
+        "key": "epa_airdata",
+        "title": "Pre-Generated Data Files",
+        "type": "online",
+        "url": "https://aqs.epa.gov/aqsweb/airdata/download_files.html",
+        "verified_fields": [
+          "author",
+          "title",
+          "url",
+          "urldate"
+        ],
+        "year": null
+      },
+      {
+        "key": "epa_formats",
+        "title": "AirData Download Files Documentation",
+        "type": "online",
+        "url": "https://aqs.epa.gov/aqsweb/airdata/FileFormats.html",
+        "verified_fields": [
+          "author",
+          "title",
+          "url",
+          "version",
+          "date",
+          "urldate"
+        ],
+        "year": "2015"
+      },
+      {
+        "key": "ecfr_appendix_u",
+        "title": "40 CFR Part 50, Appendix U: Interpretation of the Primary and Secondary National Ambient Air Quality Standards for Ozone",
+        "type": "online",
+        "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-50/appendix-Appendix%20U%20to%20Part%2050",
+        "verified_fields": [
+          "author",
+          "title",
+          "organization",
+          "url",
+          "urldate"
+        ],
+        "year": null
+      },
+      {
+        "key": "noaa_us_climate_regions",
+        "title": "U.S. Climate Regions",
+        "type": "online",
+        "url": "https://www.ncei.noaa.gov/access/monitoring/reference-maps/us-climate-regions",
+        "verified_fields": [
+          "author",
+          "title",
+          "url",
+          "urldate"
+        ],
+        "year": null
+      },
+      {
+        "doi": "10.1016/j.atmosenv.2021.118234",
+        "key": "wells2021_meteorological_ozone",
+        "title": "Improved estimation of trends in U.S. ozone concentrations adjusted for interannual variability in meteorological conditions",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "pages",
+          "doi"
+        ],
+        "year": "2021"
+      },
+      {
+        "doi": "10.1016/j.atmosenv.2007.04.061",
+        "key": "camalier2007_meteorology_ozone",
+        "title": "The effects of meteorology on ozone in urban areas and their use in assessing ozone trends",
+        "type": "article",
+        "verified_fields": [
+          "author",
+          "title",
+          "journal",
+          "year",
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ],
+        "year": "2007"
+      },
+      {
+        "key": "epa2026_cy2025_certification",
+        "title": "Questions and Answers on Ambient Air Monitoring Data Certification for CY2025 Data",
+        "type": "online",
+        "url": "https://www.epa.gov/system/files/documents/2026-02/ambient-air-monitoring-data-certification-qa-for-cy2025_final.pdf",
+        "verified_fields": [
+          "author",
+          "title",
+          "date",
+          "url",
+          "urldate"
+        ],
+        "year": "2026"
+      },
+      {
+        "key": "epa_airdata_public_domain",
+        "title": "Do I Need to Request Permission to Use Monitoring Data and Graphics from AirData?",
+        "type": "online",
+        "url": "https://www.epa.gov/outdoor-air-quality-data/do-i-need-request-permission-use-monitoring-data-and-graphics-airdata",
+        "verified_fields": [
+          "author",
+          "title",
+          "url",
+          "urldate"
+        ],
+        "year": null
+      }
+    ],
+    "entry_count": 18,
+    "entry_type_counts": {
+      "article": 11,
+      "dataset": 1,
+      "online": 6
+    },
+    "path": "manuscript/references.bib"
+  },
+  "citation_needed_claims": [],
+  "created_date": "2026-07-18",
+  "declaration_inventory": {
+    "ai_assistance": {
+      "source": "manuscript/manuscript_template.md",
+      "status": "documented"
+    },
+    "author_contributions": {
+      "repository_record": "Ellis Varden: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing\u2014original draft, Writing\u2014review and editing, Visualization, and Project administration.",
+      "status": "author_confirmed"
+    },
+    "conflicts_of_interest": {
+      "repository_record": "The author declares no competing interests.",
+      "status": "author_confirmed"
+    },
+    "correspondence": {
+      "postal_address": null,
+      "public_email": null,
+      "status": "author_confirmed_none_for_version_1_0"
+    },
+    "ethics": {
+      "repository_record": "The study used public environmental-monitoring records, enrolled no human participants, used no individual-level personal information, and required no human-subject intervention or consent.",
+      "status": "author_confirmed_public_environmental_data_statement"
+    },
+    "funding": {
+      "repository_record": "This research received no external funding.",
+      "status": "author_confirmed"
+    },
+    "peer_review": {
+      "status": "not_peer_reviewed",
+      "venue_description": "Non-peer-reviewed research manuscript deposited on Zenodo"
+    }
+  },
+  "existing_manuscript_citations": {
+    "all_keys_resolve": true,
+    "distinct_key_count": 17,
+    "keys": [
+      "bao2025",
+      "bloomer2009",
+      "camalier2007_meteorology_ozone",
+      "chang2025",
+      "ecfr_appendix_u",
+      "epa2026_cy2025_certification",
+      "epa_airdata",
+      "epa_airdata_public_domain",
+      "epa_formats",
+      "li2025",
+      "menne2012dataset",
+      "menne2012overview",
+      "ninneman2021",
+      "noaa_us_climate_regions",
+      "nolte2021",
+      "pusede2015",
+      "rasmussen2012",
+      "wells2021_meteorological_ozone"
+    ],
+    "source": "manuscript/manuscript.md and manuscript/supplement.md",
+    "supplement_distinct_key_count": 2,
+    "uncited_bibliography_keys": [
+      "ecfr_appendix_u"
+    ]
+  },
+  "external_lookup_performed": true,
+  "external_sources_verified": [
+    "https://www.ncei.noaa.gov/access/monitoring/reference-maps/us-climate-regions",
+    "10.1016/j.atmosenv.2021.118234",
+    "10.1016/j.atmosenv.2007.04.061",
+    "https://www.epa.gov/system/files/documents/2026-02/ambient-air-monitoring-data-certification-qa-for-cy2025_final.pdf",
+    "https://www.epa.gov/outdoor-air-quality-data/do-i-need-request-permission-use-monitoring-data-and-graphics-airdata"
+  ],
+  "future_unsupported_claim_safeguard": {
+    "active": true,
+    "rule": "Any future literature claim outside the verified claim map must receive a verified source or be marked for citation resolution before release."
+  },
+  "inventory_conclusion": {
+    "bibliographic_fabrication_permitted": false,
+    "future_unsupported_claim_safeguard_active": true,
+    "note": "Citation scope remains limited to the verified claim map.",
+    "resolved_existing_placeholder_occurrences": 7,
+    "safe_bibliography_keys": 18,
+    "unresolved_citation_placeholder_categories": 0
+  },
+  "inventory_sources": [
+    "manuscript/references.bib",
+    "docs/literature_review.md",
+    "docs/source_inventory.md",
+    "docs/epa_2025_completeness.md",
+    "CITATION.cff",
+    "manuscript/paper.qmd",
+    "manuscript/supplement.qmd",
+    "manuscript/_quarto.yml",
+    "config/project.yml",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "literature_note_records_without_bibliography_keys": [
+    {
+      "also_in_source_inventory": true,
+      "doi": "10.1016/j.atmosenv.2021.118234",
+      "limitation": "Author list is abbreviated in the stored note.",
+      "record": "Wells et al. (2021)",
+      "source": "docs/literature_review.md"
+    },
+    {
+      "also_in_source_inventory": true,
+      "doi": "10.1088/1748-9326/10/8/084009",
+      "limitation": "No repository BibTeX key exists.",
+      "record": "Jhun et al. (2015)",
+      "source": "docs/literature_review.md"
+    },
+    {
+      "also_in_source_inventory": true,
+      "doi": "10.1016/j.atmosenv.2023.119693",
+      "limitation": "Author list is abbreviated in the stored note.",
+      "record": "Mousavinezhad et al. (2023)",
+      "source": "docs/literature_review.md"
+    },
+    {
+      "also_in_source_inventory": false,
+      "doi": "10.1016/j.atmosenv.2007.04.061",
+      "limitation": "No repository BibTeX key or source-inventory record exists.",
+      "record": "Camalier, Cox, and Dolwick (2007)",
+      "source": "docs/literature_review.md"
+    }
+  ],
+  "manuscript_surface_inventory": {
+    "note": "Historical drafting placeholders and private-only authoring surfaces are intentionally omitted from the curated public snapshot.",
+    "public_manuscript": "manuscript/manuscript.md",
+    "public_supplement": "manuscript/supplement.md",
+    "publication_figures": 5,
+    "publication_tables": 17,
+    "status": "final_publication_artifacts_included"
+  },
+  "schema_version": "1.0.0",
+  "scope": "Verified citation inventory for the final public release",
+  "verified_claim_map": [
+    {
+      "citation_keys": [
+        "bloomer2009",
+        "rasmussen2012",
+        "pusede2015"
+      ],
+      "claim": "Ground-level ozone and temperature are associated through atmospheric chemical and meteorological processes.",
+      "claim_id": "ozone_temperature_relationship",
+      "verification_status": "verified_repository_bibliography"
+    },
+    {
+      "citation_keys": [
+        "rasmussen2012",
+        "nolte2021"
+      ],
+      "claim": "Temperature--ozone relationships vary regionally and have been examined across U.S. regions.",
+      "claim_id": "regional_temperature_ozone_relationships",
+      "verification_status": "verified_repository_bibliography"
+    },
+    {
+      "citation_keys": [
+        "ninneman2021",
+        "li2025",
+        "chang2025",
+        "bao2025"
+      ],
+      "claim": "Recent studies have examined U.S. monitoring-area ozone--temperature relationships and ozone trends through recent years.",
+      "claim_id": "recent_us_monitoring_context",
+      "verification_status": "verified_repository_bibliography"
+    },
+    {
+      "citation_keys": [
+        "menne2012dataset",
+        "menne2012overview"
+      ],
+      "claim": "GHCN-Daily is the source dataset for daily maximum temperature and has a documented station-level daily database design.",
+      "claim_id": "ghcn_daily_source",
+      "verification_status": "verified_repository_bibliography"
+    },
+    {
+      "citation_keys": [
+        "epa_airdata",
+        "epa_formats"
+      ],
+      "claim": "EPA AQS/AirData provides the ozone files and documented bulk-file formats used by the project.",
+      "claim_id": "epa_airdata_source",
+      "verification_status": "verified_repository_bibliography"
+    },
+    {
+      "citation_keys": [
+        "ecfr_appendix_u"
+      ],
+      "claim": "Appendix U supplies the regulatory site-record, validity, completeness, and ozone-standard interpretation context.",
+      "claim_id": "appendix_u_context",
+      "verification_status": "verified_repository_bibliography"
+    },
+    {
+      "citation_keys": [
+        "bloomer2009",
+        "rasmussen2012",
+        "pusede2015",
+        "ninneman2021",
+        "nolte2021",
+        "li2025",
+        "chang2025",
+        "bao2025"
+      ],
+      "claim": "The contribution is an incremental, reproducible update rather than discovery of the temperature--ozone relationship.",
+      "claim_id": "incremental_novelty",
+      "limitation": "The repository literature review is targeted, not systematic, and does not establish priority.",
+      "verification_status": "verified_repository_bibliography_and_targeted_review"
+    },
+    {
+      "citation_keys": [
+        "noaa_us_climate_regions"
+      ],
+      "claim": "NOAA identifies nine climatically consistent regions within the contiguous United States.",
+      "claim_id": "noaa_nine_regions",
+      "limitation": "The District of Columbia assignment is a study-specific frozen crosswalk, not a claim attributed to NOAA.",
+      "verification_status": "verified_official_source"
+    },
+    {
+      "citation_keys": [
+        "wells2021_meteorological_ozone",
+        "camalier2007_meteorology_ozone"
+      ],
+      "claim": "Wells et al. and Camalier et al. estimate meteorologically adjusted ozone trends, whereas this study decomposes a two-period modeled difference.",
+      "claim_id": "meteorological_adjustment_comparison",
+      "verification_status": "verified_doi_records"
+    },
+    {
+      "citation_keys": [
+        "epa2026_cy2025_certification"
+      ],
+      "claim": "EPA CY2025 guidance documents certification, validation, deadline timing, potential pre-deadline changes, outside-user caution, and distinct certification and evaluation flags.",
+      "claim_id": "epa_2025_certification_timing",
+      "limitation": "Family 4 categories remain prospectively frozen study filters, not EPA analytical recommendations.",
+      "verification_status": "verified_official_source"
+    },
+    {
+      "citation_keys": [
+        "epa_airdata_public_domain"
+      ],
+      "claim": "EPA states that AQS ambient monitoring data are public domain and may be downloaded and used without requesting permission.",
+      "claim_id": "epa_airdata_public_domain",
+      "verification_status": "verified_official_source"
+    }
+  ]
+}

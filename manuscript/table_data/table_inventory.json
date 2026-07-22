@@ -1,0 +1,23 @@
+{
+  "table_count": 17,
+  "tables": [
+    "table_01_study_population_and_design",
+    "table_02_primary_decomposition",
+    "table_03_sensitivity_summary",
+    "table_04_descriptive_elevated_ozone",
+    "supp_table_01_primary_abcd",
+    "supp_table_02_all_regional_sensitivities",
+    "supp_table_03_2020_handling",
+    "supp_table_04_network_breadth",
+    "supp_table_05_three_df_spline",
+    "supp_table_06_family4",
+    "supp_table_07_fit_diagnostics",
+    "supp_table_08_leverage",
+    "supp_table_09_family5_row_weighted",
+    "supp_table_10_site_patterns",
+    "supp_table_11_binary_failure",
+    "supp_table_12_amendments",
+    "supp_table_13_hypothesis_evidence"
+  ],
+  "source_reporting_freeze": "outputs/analysis/final_synthesis/reporting_freeze.json"
+}
